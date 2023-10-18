@@ -257,6 +257,7 @@ h3 {
     rgba(15, 59, 112, 1) 100%
   );
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .footer-content-box {
