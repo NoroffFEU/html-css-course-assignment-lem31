@@ -2,11 +2,50 @@
 @import url(SquareEyes-About-Us-Page.css);
 @import url(SquareEyes-Contact-Page.css);
 
+/* GLOBAL STYLES */
+
+.The-Batman-img,
+.The-Batman-img-box footer,
+.Container-1,
+.Container-4,
+.Container-2,
+.Container-3,
+header,
+nav {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+.h1-home,
+.h2-home,
+.h2-home-box,
+.WN-box,
+.Watch-now,
+.SquareEyes-logo,
+.Search-Cart-box {
+  position: static;
+}
+
+.Container-1,
+.Search-Cart-box,
+.WN-box,
+.SMI-imgs-box,
+.footer-links-box,
+.CR-text-box {
+  display: flex;
+  flex-direction: row;
+}
+
+#hamburger,
+#mobile-checkbox,
+#mobile-checkbox:checked ~ nav {
+  display: none;
+}
+
 /* HEADER & NAV */
 
 .Container-1 {
-  display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: center;
   column-gap: 4rem;
@@ -17,9 +56,6 @@
     rgba(15, 59, 112, 1) 100%
   );
   padding-bottom: 1rem;
-  width: 100%;
-  max-width: 900px;
-  position: relative;
 }
 
 .SquareEyes-logo {
@@ -63,13 +99,10 @@ nav a {
 }
 
 .Search-Cart-box {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
   gap: 2rem;
   width: 100%;
-  position: relative;
 }
 
 .search-icon {
@@ -86,32 +119,14 @@ nav a {
   justify-self: start;
 }
 
-#hamburger {
-  display: none;
-}
-
-#mobile-checkbox {
-  display: none;
-}
-
-#mobile-checkbox:checked ~ nav {
-  display: none;
-}
-
 /* HOME PAGE */
 
 .Container-2 {
   background-color: #0f3b70;
-  position: relative;
-  width: 100%;
-  max-width: 900px;
   overflow-x: hidden;
 }
 
 .The-Batman-img-box {
-  width: 100%;
-  max-width: 900px;
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr auto;
   grid-template-rows: 1fr auto;
@@ -120,9 +135,6 @@ nav a {
 }
 
 .The-Batman-img {
-  width: 100%;
-  max-width: 900px;
-  position: relative;
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -133,7 +145,6 @@ nav a {
   grid-area: H11;
   color: white;
   z-index: 20;
-  position: relative;
   font-size: 1.5rem;
   width: 300px;
   max-height: 20px;
@@ -145,7 +156,6 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  position: static;
   height: 200px;
   width: 350px;
 }
@@ -155,7 +165,6 @@ nav a {
   font-size: 3rem;
   font-family: "Amaranth", sans-serif;
   z-index: 8;
-  position: relative;
   display: flex;
   flex-direction: row;
   width: 300px;
@@ -168,9 +177,6 @@ nav a {
 
 .WN-box {
   grid-area: H12;
-  position: static;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: start;
   width: 800px;
@@ -193,7 +199,6 @@ nav a {
   filter: drop-shadow(0rem 0.5rem black);
   transform: rotate(-10deg);
   z-index: 20;
-  position: static;
   height: 260px;
   width: 260px;
 }
@@ -208,8 +213,6 @@ nav a {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #0f3b70;
-  width: 100%;
-  max-width: 900px;
   height: 700px;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -247,8 +250,6 @@ h3 {
 /* FOOTER */
 
 .Container-4 {
-  width: 100%;
-  max-width: 900px;
   max-height: 240px;
   background: rgb(170, 71, 255);
   background: linear-gradient(
@@ -272,8 +273,6 @@ h3 {
 }
 
 .SMI-imgs-box {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   justify-content: center;
 }
@@ -285,8 +284,6 @@ footer img {
 }
 
 .footer-links-box {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
 }
@@ -303,8 +300,6 @@ footer img {
 }
 
 .CR-text-box {
-  display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   width: 100%;
   color: white;
