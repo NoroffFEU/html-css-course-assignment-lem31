@@ -10,6 +10,7 @@
 .Container-4,
 .Container-2,
 .Container-3,
+.All-films-box,
 header,
 nav {
   width: 100%;
@@ -32,7 +33,9 @@ nav {
 .WN-box,
 .SMI-imgs-box,
 .footer-links-box,
-.CR-text-box {
+.CR-text-box,
+.h1-Films,
+.h2-Films {
   display: flex;
   flex-direction: row;
 }
@@ -41,6 +44,14 @@ nav {
 #mobile-checkbox,
 #mobile-checkbox:checked ~ nav {
   display: none;
+}
+
+.h1-home,
+.h2-home,
+.h1-Films,
+.h2-Films {
+  color: white;
+  font-family: "Amaranth", "open sans";
 }
 
 /* HEADER & NAV */
@@ -143,12 +154,12 @@ nav a {
 
 .h1-home {
   grid-area: H11;
-  color: white;
   z-index: 20;
   font-size: 1.5rem;
   width: 300px;
   max-height: 20px;
   z-index: 8;
+  font-style: italic;
 }
 
 .h2-home-box {
@@ -161,9 +172,7 @@ nav a {
 }
 .h2-home {
   grid-area: H11;
-  color: white;
   font-size: 3rem;
-  font-family: "Amaranth", sans-serif;
   z-index: 8;
   display: flex;
   flex-direction: row;
