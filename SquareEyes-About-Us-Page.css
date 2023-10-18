@@ -1,0 +1,38 @@
+/* ABOUT US PAGE */
+
+.About-Us {
+  width: 100%rem;
+  max-width: 1200px;
+  height: 50rem;
+  background-color: #0f3b70;
+}
+
+.Header-text-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.Header-text-box p {
+  justify-self: flex-end;
+  color: white;
+  margin-top: 6rem;
+  font-size: 2rem;
+}
+
+.Header-text-box h1 {
+  font-size: 4rem;
+  font-family: "Amaranth";
+  color: white;
+}
+
+.Aboutus-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 58rem;
+}
+
+.Aboutus-img {
+  width: 30rem;
+}

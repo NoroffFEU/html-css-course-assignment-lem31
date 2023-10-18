@@ -1,0 +1,756 @@
+@import url(SquareEyes-Film-Page.css);
+@import url(SquareEyes-About-Us-Page.css);
+@import url(SquareEyes-Contact-Page.css);
+
+/* HEADER & NAV */
+
+.Container-1 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 4rem;
+  background: rgb(170, 71, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(170, 71, 255, 1) 0%,
+    rgba(15, 59, 112, 1) 100%
+  );
+  padding-bottom: 1rem;
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+.SquareEyes-logo {
+  max-width: 10rem;
+  max-height: 5rem;
+  filter: drop-shadow(0.1rem 0.1rem white);
+  margin-left: 1rem;
+  justify-self: flex-start;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+}
+
+nav {
+  display: inline-flex;
+  flex-direction: row;
+  max-width: 360px;
+  width: 100%;
+  position: static;
+  align-self: center;
+  justify-content: center;
+  white-space: nowrap;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  z-index: 9;
+}
+
+nav a {
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  white-space: nowrap;
+}
+
+.Search-Cart-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+.search-icon {
+  max-width: 4rem;
+  max-height: 3rem;
+  align-self: center;
+  justify-self: start;
+}
+
+.cart-icon {
+  max-width: 4rem;
+  max-height: 3rem;
+  align-self: center;
+  justify-self: start;
+}
+
+#hamburger {
+  display: none;
+}
+
+#mobile-checkbox {
+  display: none;
+}
+
+#mobile-checkbox:checked ~ nav {
+  display: none;
+}
+
+/* HOME PAGE */
+
+.Container-2 {
+  background-color: #0f3b70;
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  overflow-x: hidden;
+}
+
+.The-Batman-img-box {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "H11 H12 H13 H14";
+  overflow-x: hidden;
+}
+
+.The-Batman-img {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.h1-home {
+  grid-area: H11;
+  color: white;
+  z-index: 20;
+  position: relative;
+  font-size: 1.5rem;
+  width: 300px;
+  max-height: 20px;
+  z-index: 8;
+}
+
+.h2-home-box {
+  grid-area: H11;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: static;
+  height: 200px;
+  width: 350px;
+}
+.h2-home {
+  grid-area: H11;
+  color: white;
+  font-size: 3rem;
+  font-family: "Amaranth", sans-serif;
+  z-index: 8;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-self: flex-end;
+}
+
+.films {
+  color: #e6ff4b;
+}
+
+.WN-box {
+  grid-area: H12;
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  width: 800px;
+}
+
+.Watch-now {
+  grid-area: H12;
+  color: #e6ff4b;
+  text-decoration: none;
+  font-size: 2.8rem;
+  background: rgba(1, 1, 1, 0.357);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 1, 1, 0.271) 0%,
+    rgba(0, 0, 0, 0.377) 100%
+  );
+  border: 0.1px black;
+  border-radius: 10rem 10rem 10rem 10rem;
+  padding: 90px 5px 90px 5px;
+  filter: drop-shadow(0rem 0.5rem black);
+  transform: rotate(-10deg);
+  z-index: 20;
+  position: static;
+  height: 260px;
+  width: 260px;
+}
+
+.Container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    "Title Gap"
+    "Carousel Carousel";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0f3b70;
+  width: 100%;
+  max-width: 900px;
+  height: 700px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+h3 {
+  grid-area: Title;
+  color: white;
+  font-family: "Amaranth", sans-serif;
+  font-size: 2rem;
+  margin-left: 1rem;
+  position: relative;
+}
+
+.carousel {
+  grid-area: Carousel;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-left: -0.5rem;
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+}
+
+.carousel img {
+  max-width: 15rem;
+  margin-left: 0.7rem;
+  filter: drop-shadow(0.7rem 0.7rem black);
+  overflow-y: hidden;
+}
+
+/* FOOTER */
+
+.Container-4 {
+  width: 100%;
+  max-width: 900px;
+  max-height: 250px;
+  background: rgb(170, 71, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(170, 71, 255, 1) 0%,
+    rgba(15, 59, 112, 1) 100%
+  );
+  overflow-x: hidden;
+}
+
+.footer-content-box {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  max-height: 50rem;
+}
+
+.SMI-imgs-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+footer img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.footer-links-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.Footer-Links a {
+  font-size: 0.5rem;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.line {
+  margin-left: 0.2rem;
+}
+
+.CR-text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  color: white;
+  margin-left: -1rem;
+}
+
+/* TABLET MEDIA QUERIES */
+
+@media (min-width: 701px) and (max-width: 900px) {
+  /* HEADER */
+  .Container-1 {
+    align-items: center;
+  }
+
+  .SquareEyes-logo {
+    max-width: 90px;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  nav {
+    margin-left: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1rem;
+    justify-content: center;
+    position: static;
+  }
+
+  nav a {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+
+  .Search-Cart-box {
+    column-gap: 40px;
+    margin-left: -2rem;
+  }
+
+  /* HOME PAGE */
+
+  .h1-home {
+    font-size: 1rem;
+  }
+
+  .The-Batman-img-box {
+    width: 100%;
+    grid-template-columns: 1fr 3fr auto auto;
+  }
+
+  .WN-box {
+    grid-area: H12;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+    justify-content: end;
+    align-items: center;
+    position: static;
+    justify-self: center;
+  }
+
+  .Watch-now {
+    grid-area: H12;
+    height: 130px;
+    width: 130px;
+    padding: 60px 8px 60px 8px;
+    font-size: 1rem;
+    position: static;
+  }
+
+  .h2-home-box {
+    grid-area: H11;
+    display: flex;
+    flex-direction: row;
+    width: 310px;
+    height: 200px;
+    position: static;
+  }
+
+  .h2-home {
+    grid-area: H11;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    column-span: 2;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+  }
+}
+
+/* LARGE SCREEN MOBILE MEDIA QUERIES */
+
+@media (min-width: 429px) and (max-width: 700px) {
+  /* HEADER */
+
+  .Container-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 429px;
+    width: 100%;
+    max-height: 3rem;
+    gap: 1rem;
+  }
+
+  .SquareEyes-logo {
+    max-width: 60px;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  nav {
+    display: none;
+    width: 8rem;
+    background-color: black;
+    position: inherit;
+    margin-top: 6rem;
+    margin-left: -5.9rem;
+    max-width: 90px;
+    max-height: 50px;
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    justify-content: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1.5rem;
+    position: inherit;
+  }
+
+  nav a:hover {
+    border: 4px solid purple;
+  }
+
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 1rem;
+    position: relative;
+    align-self: center;
+  }
+
+  #mobile-checkbox {
+    display: none;
+  }
+
+  #mobile-checkbox:checked ~ nav {
+    display: block;
+  }
+
+  .Search-Cart-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    column-gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .search-icon,
+  .cart-icon {
+    max-width: 3rem;
+    max-height: 2rem;
+  }
+
+  /* HOME PAGE */
+
+  .h1-home {
+    font-size: 0.7rem;
+    margin: 0px;
+  }
+
+  .The-Batman-img-box {
+    width: 100%;
+    grid-template-columns: 1fr 3fr auto auto;
+    max-width: 429px;
+  }
+
+  .h2-home-box {
+    grid-area: H11;
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    height: 110px;
+    position: static;
+  }
+
+  .h2-home {
+    grid-area: H11;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    column-span: 2;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+  }
+
+  .WN-box {
+    grid-area: H12;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 120px;
+    position: static;
+  }
+
+  .Watch-now {
+    grid-area: H12;
+    height: 100px;
+    width: 100px;
+    padding: 50px 5px 50px 5px;
+    font-size: 0.8rem;
+    align-self: center;
+    position: static;
+  }
+
+  .The-Batman-img,
+  footer,
+  .Container-4,
+  .Container-2,
+  .Container-3,
+  header {
+    width: 100%;
+    max-width: 429px;
+  }
+
+  .Container-3 {
+    height: 400px;
+  }
+
+  .h3-home {
+    font-size: 1.3rem;
+  }
+
+  .carousel img {
+    max-width: 8rem;
+  }
+
+  /* FOOTER */
+
+  .Footer-Links a {
+    font-size: 0.7rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  footer,
+  .Container-4 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  footer img {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+  }
+
+  .CR-text-box p {
+    font-size: 0.7rem;
+  }
+}
+
+/* Small Screen MOBILE MEDIA QUERIES */
+
+@media (max-width: 428px) {
+  /* HEADER */
+
+  .Container-1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 25em;
+    max-height: 2rem;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .SquareEyes-logo {
+    max-width: 60px;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  nav {
+    display: none;
+    width: 8rem;
+    background-color: black;
+    position: relative;
+    margin-top: 5rem;
+    margin-left: -2rem;
+    max-width: 50px;
+    max-height: 30px;
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    justify-content: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    position: inherit;
+  }
+
+  nav a:hover {
+    border: 4px solid purple;
+  }
+
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 1rem;
+    position: relative;
+    align-self: center;
+  }
+
+  #mobile-checkbox {
+    display: none;
+  }
+
+  #mobile-checkbox:checked ~ nav {
+    display: block;
+  }
+
+  .Search-Cart-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    column-gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .search-icon,
+  .cart-icon {
+    max-width: 3rem;
+    max-height: 2rem;
+  }
+
+  /* HOME PAGE */
+
+  .h1-home {
+    font-size: 0.5rem;
+    margin: 0px;
+  }
+
+  .The-Batman-img-box {
+    width: 100%;
+    grid-template-columns: 3fr, auto, auto, auto;
+  }
+
+  .h2-home-box {
+    grid-area: H11;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 90px;
+    position: static;
+  }
+
+  .h2-home {
+    grid-area: H11;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    column-span: 2;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+  }
+
+  .WN-box {
+    grid-area: H11;
+    display: flex;
+    flex-direction: row;
+    width: 328px;
+    justify-content: flex-end;
+    position: static;
+  }
+
+  .Watch-now {
+    grid-area: H11;
+    height: 80px;
+    width: 80px;
+    padding: 30px 4px 30px 4px;
+    font-size: 0.6rem;
+    position: static;
+  }
+
+  .The-Batman-img,
+  footer,
+  .Container-4,
+  .Container-2,
+  .container-3,
+  header {
+    width: 100%;
+    max-width: 26em;
+    position: relative;
+  }
+
+  .Container-3 {
+    height: 300px;
+  }
+
+  .carousel img {
+    max-width: 5rem;
+  }
+
+  .h3-home {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
+
+  .Footer-Links a {
+    font-size: 0.7rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  footer,
+  .Container-4 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  footer img {
+    height: 2rem;
+    width: 1.8rem;
+    margin-right: 1rem;
+  }
+
+  .CR-text-box p {
+    font-size: 0.5rem;
+  }
+}

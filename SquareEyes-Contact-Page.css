@@ -1,0 +1,154 @@
+/* CONTACT PAGE */
+
+.Contact-Page {
+  width: 100%;
+  max-width: 1200px;
+  height: 60rem;
+  background-color: #0f3b70;
+  display: flex;
+}
+
+.h1-contact-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 18rem;
+}
+
+.h1-contact {
+  font-size: 4rem;
+  color: white;
+}
+
+.contact-flex-box {
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+  justify-content: center;
+}
+.contact-box {
+  width: 40rem;
+  height: 40rem;
+  background-color: black;
+  align-self: center;
+}
+
+.h2-contact-box {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+}
+
+.h2-contact {
+  width: 16rem;
+  font-size: 3rem;
+  color: white;
+  font-family: "Amaranth";
+}
+
+.Name-labels {
+  display: flex;
+  flex-direction: row;
+  width: 60rem;
+  align-content: center;
+}
+
+.FN-Label {
+  width: 19rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.LN-Label {
+  justify-self: center;
+  grid-area: LNL;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.Name-inputs {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+#First-Name-Box {
+  padding: 0.5rem 4rem;
+  background-color: #2e2c2c;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+#Last-Name-Box {
+  grid-area: LNB;
+  padding: 0.5rem 4rem;
+  background-color: #2e2c2c;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+.email-label {
+  display: flex;
+  height: 0.5rem;
+  width: 6.5rem;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+.email-input-box {
+  display: flex;
+  width: 20.5rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#Email-input {
+  margin-top: 1rem;
+  padding: 0.5rem 4rem;
+  background-color: #2e2c2c;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+
+.message-label {
+  color: white;
+  display: flex;
+  width: 9rem;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.message-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40.5rem;
+}
+
+#Your-message {
+  padding: 1.5rem 3.8rem;
+  background-color: #2e2c2c;
+  border: 2px solid white;
+}
+
+.Submit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 10.5rem;
+  margin-top: 5rem;
+}
+.contact-box button {
+  grid-area: s-btn;
+  width: 7rem;
+  height: 2rem;
+  background-color: #9747ff;
+  color: white;
+  border-radius: 0.3rem;
+}
