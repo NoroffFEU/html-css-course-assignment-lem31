@@ -57,6 +57,11 @@ nav {
   font-family: "Amaranth", "open sans";
 }
 
+.active-page {
+  background-color: #6a6a6a;
+  border: none;
+}
+
 /* HEADER & NAV */
 
 .Container-1 {
