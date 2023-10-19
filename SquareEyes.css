@@ -343,7 +343,6 @@ footer img {
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "Hamburger Logo Search-Cart";
     grid-gap: 1rem;
-    position: relative;
     max-height: 2rem;
     width: 100%;
     justify-items: center;
@@ -365,8 +364,9 @@ footer img {
     display: none;
     width: 8rem;
     background-color: black;
-    position: static;
-    margin-top: -1rem;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -8.7rem;
     max-width: 50px;
     max-height: 20px;
     width: 100%;
@@ -558,12 +558,12 @@ footer img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 150px;
+    width: 240px;
     margin-top: 0.5rem;
   }
   .SquareEyes-logo {
     grid-area: Logo;
-    max-width: 60px;
+    max-width: 100px;
     width: 100%;
   }
 
@@ -571,12 +571,13 @@ footer img {
     display: none;
     width: 8rem;
     background-color: black;
-    position: inherit;
-    margin-top: 6rem;
-    margin-left: -5.9rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -15.5rem;
     max-width: 90px;
     max-height: 50px;
     width: 100%;
+    z-index: 9;
   }
 
   nav a {
@@ -588,7 +589,7 @@ footer img {
     width: 100%;
     height: 40px;
     font-size: 1.5rem;
-    position: inherit;
+    position: relative;
   }
 
   nav a:hover {
@@ -637,6 +638,7 @@ footer img {
   .h1-home {
     font-size: 0.7rem;
     margin: 0px;
+    z-index: 8;
   }
 
   .The-Batman-img-box {
