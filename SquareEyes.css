@@ -1,3 +1,7 @@
+@-ms-viewport {
+  width: device-width;
+}
+
 @import url(SquareEyes-Film-Page.css);
 @import url(SquareEyes-About-Us-Page.css);
 @import url(SquareEyes-Contact-Page.css);
