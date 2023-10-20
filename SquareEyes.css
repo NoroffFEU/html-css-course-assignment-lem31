@@ -8,9 +8,9 @@
 .The-Batman-img-box,
 footer,
 .Container-1,
-.Container-4,
 .Container-2,
 .Container-3,
+.Container-4,
 .All-films-box,
 .square-eyes-logo-box,
 header {
@@ -208,7 +208,7 @@ nav a {
   );
   border: 0.1px black;
   border-radius: 10rem 10rem 10rem 10rem;
-  padding: 90px 5px 90px 5px;
+  padding: 70px 5px 70px 5px;
   filter: drop-shadow(0rem 0.5rem black);
   transform: rotate(-10deg);
   z-index: 20;
