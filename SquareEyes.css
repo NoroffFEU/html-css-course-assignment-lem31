@@ -208,8 +208,8 @@ nav a {
   );
   border: 0.1px black;
   border-radius: 10rem 10rem 10rem 10rem;
-  padding: 70px 5px 70px 5px;
-  filter: drop-shadow(0rem 0.5rem black);
+  padding: 50px 5px 50px 5px;
+  filter: drop-shadow(0rem 0rem black);
   transform: rotate(-10deg);
   z-index: 20;
   height: 260px;
@@ -667,7 +667,8 @@ footer img {
     display: flex;
     flex-direction: row;
     width: 150px;
-    height: 120px;
+    height: 180px;
+    align-self: center;
     position: static;
   }
 
@@ -675,7 +676,7 @@ footer img {
     grid-area: H12;
     height: 100px;
     width: 100px;
-    padding: 50px 5px 50px 5px;
+    padding: 45px 5px 50px 5px;
     font-size: 0.8rem;
     justify-self: flex-end;
     position: static;
