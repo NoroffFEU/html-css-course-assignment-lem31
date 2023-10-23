@@ -260,6 +260,10 @@ h3 {
   overflow-y: hidden;
 }
 
+.Right-chevron-box {
+  display: none;
+}
+
 /* FOOTER */
 
 .Container-4 {
@@ -332,7 +336,9 @@ footer img {
   .Container-2,
   .Container-3,
   .WN-box,
-  header {
+  header,
+  .All-films-box,
+  .All-films-imgs-box {
     width: 100%;
     max-width: 240px;
     position: relative;
@@ -476,10 +482,48 @@ footer img {
 
   .Container-3 {
     height: 200px;
+    z-index: 9;
+    position: relative;
+  }
+
+  .carousel {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overscroll-behavior-inline: none;
+    z-index: 9;
+    width: 300px;
+    position: relative;
   }
 
   .carousel img {
-    max-width: 3rem;
+    max-width: 3.6rem;
+    margin-left: 0.2rem;
+    filter: drop-shadow(0.2rem 0.2rem black);
+    overflow-y: hidden;
+    position: relative;
+    z-index: 8;
+  }
+
+  .Right-chevron {
+    width: 100px;
+    height: 80px;
+  }
+
+  .Right-chevron-box {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: 7;
+    margin-top: -5rem;
+    margin-left: 1rem;
+  }
+
+  .Dark {
+    margin-left: 0.2rem;
+  }
+
+  .Fun-Treasure {
+    margin-left: -0.3rem;
   }
 
   .h3-home {
@@ -522,6 +566,19 @@ footer img {
   .CR-text-box p {
     font-size: 0.3rem;
   }
+
+  /* FILMS PAGE */
+
+  .All-films-imgs {
+    grid-gap: 0rem;
+    width: 200px;
+  }
+
+  .All-films-poster {
+    width: 50px;
+    height: 80px;
+    filter: drop-shadow(0.2rem 0.3rem black);
+  }
 }
 
 /* LARGE SCREEN MOBILE MEDIA QUERIES */
@@ -536,32 +593,26 @@ footer img {
   .Container-3,
   .square-eyes-logo-box,
   .WN-box,
-  header {
+  header,
+  .All-films-box,
+  .All-films-imgs-box {
     width: 100%;
     max-width: 500px;
+    position: relative;
   }
 
   .Container-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-areas: "Hamburger Logo Search-Cart";
-    position: relative;
-    max-height: 3rem;
-    gap: 1rem;
-    justify-items: center;
   }
 
-  .square-eyes-logo-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 240px;
-    margin-top: 0.5rem;
-  }
   .SquareEyes-logo {
     grid-area: Logo;
     max-width: 100px;
     width: 100%;
+    margin-top: 0.5rem;
+    position: static;
   }
 
   nav {
@@ -731,6 +782,18 @@ footer img {
   .CR-text-box p {
     font-size: 0.7rem;
   }
+
+  /* FILMS PAGE */
+
+  .All-films-imgs {
+    grid-gap: 0rem;
+    width: 10px;
+  }
+
+  .All-films-poster {
+    width: 20px;
+    height: 20px;
+  }
 }
 
 /* TABLET MEDIA QUERIES */
@@ -745,7 +808,9 @@ footer img {
   .Container-2,
   .Container-3,
   header,
-  nav {
+  nav,
+  .All-films-box,
+  .All-films-imgs-box {
     width: 100%;
     max-width: 700px;
   }
