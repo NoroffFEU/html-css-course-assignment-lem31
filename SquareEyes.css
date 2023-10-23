@@ -2,6 +2,15 @@
 @import url(SquareEyes-About-Us-Page.css);
 @import url(SquareEyes-Contact-Page.css);
 
+/* VARIABLES */
+
+:root {
+  --Linear-Purple-Color: linear-gradient(180deg, #aa47ff 0%, #0f3b70 100%);
+  --Base-Blue-Color: #0f3b70;
+  --White-Text-Color: #ffffff;
+  --Primary-Font: "Amaranth", "open sans";
+}
+
 /* GLOBAL STYLES */
 
 .The-Batman-img,
@@ -17,6 +26,11 @@ header {
   width: 100%;
   max-width: 900px;
   position: relative;
+}
+
+.Container-1,
+.Container-4 {
+  background: var(--Linear-Purple-Color);
 }
 
 .h1-home,
@@ -53,8 +67,8 @@ header {
 .h2-home,
 .h1-Films,
 .h2-Films {
-  color: white;
-  font-family: "Amaranth", "open sans";
+  color: var(--White-Text-Color);
+  font-family: var(--Primary-Font);
 }
 
 .active-page {
@@ -68,12 +82,6 @@ header {
   align-content: center;
   justify-content: center;
   column-gap: 4rem;
-  background: rgb(170, 71, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(170, 71, 255, 1) 0%,
-    rgba(15, 59, 112, 1) 100%
-  );
   padding-bottom: 1rem;
 }
 
@@ -136,11 +144,6 @@ nav a {
 }
 
 /* HOME PAGE */
-
-.Container-2 {
-  background-color: #0f3b70;
-  overflow-x: hidden;
-}
 
 .The-Batman-img-box {
   display: grid;
@@ -225,7 +228,7 @@ nav a {
     "Carousel Carousel";
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #0f3b70;
+  background-color: var(--Base-Blue-Color);
   height: 700px;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -268,12 +271,6 @@ h3 {
 
 .Container-4 {
   max-height: 240px;
-  background: rgb(170, 71, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(170, 71, 255, 1) 0%,
-    rgba(15, 59, 112, 1) 100%
-  );
   overflow-x: hidden;
   overflow-y: hidden;
 }
