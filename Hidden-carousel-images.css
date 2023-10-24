@@ -271,6 +271,11 @@ footer img {
     width: 100%;
   }
 
+  nav {
+    margin-left: -25.2rem;
+    position: absolute;
+  }
+
   #hamburger {
     justify-self: start;
   }
