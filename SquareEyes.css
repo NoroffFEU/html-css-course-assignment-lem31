@@ -497,7 +497,7 @@ footer img {
     overscroll-behavior-inline: none;
     z-index: 9;
     width: 300px;
-    position: relative;
+    position: static;
   }
 
   .carousel img {
@@ -505,7 +505,8 @@ footer img {
     margin-left: 0.2rem;
     filter: drop-shadow(0.2rem 0.2rem black);
     overflow-y: hidden;
-    position: relative;
+    overflow-x: hidden;
+    position: static;
     z-index: 8;
   }
 
@@ -524,7 +525,7 @@ footer img {
   }
 
   .Dark {
-    margin-left: 0.2rem;
+    margin-left: 0.3rem;
   }
 
   .Fun-Treasure {
@@ -757,13 +758,18 @@ footer img {
   }
 
   .carousel {
+    width: 1000px;
     overflow-x: hidden;
     overflow-y: hidden;
     overscroll-behavior-inline: none;
+    position: static;
   }
 
   .carousel img {
-    max-width: 8rem;
+    max-width: 7.7rem;
+    overflow-y: hidden;
+    position: static;
+    margin-left: 0rem;
   }
 
   .Right-chevron {
@@ -772,12 +778,21 @@ footer img {
   }
 
   .Right-chevron-box {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
     z-index: 7;
+    position: static;
     margin-top: -12rem;
-    margin-left: -2rem;
+    margin-left: 1rem;
+  }
+
+  .Dark {
+    margin-left: 0.6rem;
+  }
+
+  .Faith {
+    width: 100%;
+    max-width: 300px;
+    white-space: none;
   }
 
   .Footer-Links a {
