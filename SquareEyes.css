@@ -272,7 +272,7 @@ h3 {
   z-index: 8;
 }
 
-footer{
+footer {
   z-index: 8;
 }
 
@@ -756,8 +756,28 @@ footer img {
     font-size: 1.3rem;
   }
 
+  .carousel {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overscroll-behavior-inline: none;
+  }
+
   .carousel img {
     max-width: 8rem;
+  }
+
+  .Right-chevron {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Right-chevron-box {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    z-index: 7;
+    margin-top: -12rem;
+    margin-left: -2rem;
   }
 
   .Footer-Links a {
@@ -803,8 +823,7 @@ footer img {
     height: 62px;
     width: 100%;
   }
-
- 
+}
 
 /* TABLET MEDIA QUERIES */
 
