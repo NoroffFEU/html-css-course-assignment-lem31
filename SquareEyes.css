@@ -269,6 +269,11 @@ h3 {
   max-height: 240px;
   overflow-x: hidden;
   overflow-y: hidden;
+  z-index: 8;
+}
+
+footer{
+  z-index: 8;
 }
 
 .footer-content-box {
@@ -280,6 +285,7 @@ h3 {
   align-content: center;
   width: 100%;
   max-height: 50rem;
+  z-index: 8;
 }
 
 .SMI-imgs-box {
@@ -798,18 +804,7 @@ footer img {
     width: 100%;
   }
 
-  /* FILMS PAGE */
-
-  .All-films-imgs {
-    grid-gap: 0rem;
-    width: 10px;
-  }
-
-  .All-films-poster {
-    width: 20px;
-    height: 20px;
-  }
-}
+ 
 
 /* TABLET MEDIA QUERIES */
 

@@ -1,19 +1,41 @@
 @import url(SquareEyes.css);
 
+/* VARIABLES */
+
+:root {
+  --Linear-Purple-Color: linear-gradient(180deg, #aa47ff 0%, #0f3b70 100%);
+  --Base-Blue-Color: #0f3b70;
+  --White-Text-Color: #ffffff;
+  --Primary-Font: "Amaranth", "open sans";
+}
+
+.All-films-box,
+.Films-Categories-box {
+  background-color: var(--Base-Blue-Color);
+}
+
+.header-films-page {
+  color: var(--White-Text-Color);
+  font-family: var(--Primary-Font);
+}
+
 /* FILMS PAGE */
 
-.h1-Films {
+body {
+  overflow-y: scroll;
+}
+
+#h1-Films {
   max-width: 100px;
   justify-content: flex-end;
   margin-top: 0;
 }
 
-.h2-Films {
+#h2-Films {
   justify-content: center;
 }
 
 .All-films-box {
-  background-color: #0f3b70;
   height: 800px;
 }
 
@@ -33,8 +55,80 @@
   width: 400px;
 }
 
-.All-films-poster {
+.Films-Categories-box {
+  max-height: 300px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(10, auto);
+  grid-template-areas:
+    "a a a"
+    "b c d"
+    "e e e"
+    "f g h"
+    "i i i"
+    "q r s"
+    "t t t"
+    "w x y"
+    "z z z"
+    "4 5 6";
+  z-index: 9;
+  position: relative;
+  overflow-y: hidden;
+  overflow: scroll;
+}
+
+#header-Films-horror {
+  grid-area: a;
+}
+
+#Horror-film-img {
+  grid-area: b;
+}
+
+#header-Films-Family {
+  grid-area: e;
+}
+
+#Family-film-img {
+  grid-area: f;
+}
+
+#h4-Films {
+  grid-area: i;
+}
+
+#Action-film-img1 {
+  grid-area: q;
+}
+
+#Action-film-img2 {
+  grid-area: r;
+}
+
+#Action-film-img3 {
+  grid-area: s;
+}
+
+#h5-Films {
+  grid-area: t;
+}
+
+#Thriller-film-img {
+  grid-area: w;
+}
+
+#h6-Films {
+  grid-area: z;
+}
+
+#Comedy-film-img {
+  grid-area: 4;
+}
+
+.All-films-poster,
+.Films-Categories-img {
   width: 200px;
   height: 300px;
-  filter: drop-shadow(1rem 0.5rem black);
+  filter: drop-shadow(0.2rem 0.2rem black);
 }
