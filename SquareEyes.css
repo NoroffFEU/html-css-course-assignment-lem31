@@ -9,6 +9,7 @@
   --Base-Blue-Color: #0f3b70;
   --White-Text-Color: #ffffff;
   --Primary-Font: "Amaranth", "open sans";
+  --Secondary-Font: "Open Sans", "sans-serif";
 }
 
 /* GLOBAL STYLES */
@@ -21,6 +22,7 @@ footer,
 .Container-3,
 .Container-4,
 .All-films-box,
+.Films-Categories-box,
 .square-eyes-logo-box,
 header {
   width: 100%;
@@ -337,7 +339,7 @@ footer img {
   .WN-box,
   header,
   .All-films-box,
-  .All-films-imgs-box {
+  .Films-Categories-box {
     width: 100%;
     max-width: 240px;
     position: relative;
@@ -577,7 +579,7 @@ footer img {
 
   /* FILMS PAGE */
 
-  .All-films-imgs {
+  .All-films-images {
     grid-gap: 0rem;
     width: 200px;
   }
@@ -603,7 +605,7 @@ footer img {
   .WN-box,
   header,
   .All-films-box,
-  .All-films-imgs-box {
+  .Films-Categories-box {
     width: 100%;
     max-width: 500px;
     position: relative;
@@ -854,7 +856,7 @@ footer img {
   header,
   nav,
   .All-films-box,
-  .All-films-imgs-box {
+  .Films-Categories-box {
     width: 100%;
     max-width: 700px;
   }

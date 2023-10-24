@@ -7,6 +7,7 @@
   --Base-Blue-Color: #0f3b70;
   --White-Text-Color: #ffffff;
   --Primary-Font: "Amaranth", "open sans";
+  --Secondary-Font: "Open Sans", "sans-serif";
 }
 
 .All-films-box,
@@ -17,6 +18,7 @@
 .header-films-page {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
+  font-size: 1.5rem;
 }
 
 /* FILMS PAGE */
@@ -26,12 +28,15 @@ body {
 }
 
 #h1-Films {
+  display: flex;
   max-width: 100px;
   justify-content: flex-end;
+  font-size: 2rem;
   margin-top: 0;
 }
 
 #h2-Films {
+  display: flex;
   justify-content: center;
 }
 
@@ -39,15 +44,15 @@ body {
   height: 800px;
 }
 
-.All-films-imgs-box {
+.All-films-images-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 450px;
+  max-width: 485px;
   width: 100%;
 }
 
-.All-films-imgs {
+.All-films-images {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(2, auto);
@@ -57,7 +62,7 @@ body {
 
 .Films-Categories-box {
   max-height: 300px;
-  max-width: 900px;
+  max-width: 880px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(10, auto);
@@ -71,7 +76,7 @@ body {
     "t t t"
     "w x y"
     "z z z"
-    "4 5 6";
+    "u v v";
   z-index: 9;
   position: relative;
   overflow-y: hidden;
@@ -80,50 +85,63 @@ body {
 
 #header-Films-horror {
   grid-area: a;
+  display: flex;
+  justify-content: center;
 }
 
 #Horror-film-img {
   grid-area: b;
+  justify-self: center;
 }
 
 #header-Films-Family {
   grid-area: e;
+  justify-self: center;
 }
 
 #Family-film-img {
   grid-area: f;
+  justify-self: center;
 }
 
 #h4-Films {
   grid-area: i;
+  justify-self: center;
 }
 
 #Action-film-img1 {
   grid-area: q;
+  justify-self: center;
 }
 
 #Action-film-img2 {
   grid-area: r;
+  justify-self: center;
 }
 
 #Action-film-img3 {
   grid-area: s;
+  justify-self: center;
 }
 
 #h5-Films {
   grid-area: t;
+  justify-self: center;
 }
 
 #Thriller-film-img {
   grid-area: w;
+  justify-self: center;
 }
 
 #h6-Films {
   grid-area: z;
+  justify-self: center;
 }
 
 #Comedy-film-img {
-  grid-area: 4;
+  grid-area: u;
+  justify-self: center;
 }
 
 .All-films-poster,
