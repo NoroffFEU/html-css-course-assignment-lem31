@@ -263,10 +263,11 @@ footer img {
   .Container-1,
   .Container-4,
   .Container-5,
-  .Hidden-images-box,
   footer,
   .footer-content-box,
-  header {
+  header,
+  main,
+  .Hidden-images-box {
     max-width: 500px;
     width: 100%;
   }
@@ -303,8 +304,8 @@ footer img {
   }
 
   .Hidden-images-box img {
-    max-width: 7.6rem;
-    margin-left: 0.2rem;
+    max-width: 7.5rem;
+    margin-left: 0.3rem;
     filter: drop-shadow(0.3rem 0.3rem black);
   }
 

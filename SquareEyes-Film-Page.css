@@ -29,9 +29,8 @@ body {
 
 #h1-Films {
   display: flex;
-  max-width: 100px;
+  max-width: 120px;
   justify-content: flex-end;
-  font-size: 2rem;
   margin-top: 0;
 }
 

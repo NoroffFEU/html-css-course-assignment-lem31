@@ -24,7 +24,9 @@ footer,
 .All-films-box,
 .Films-Categories-box,
 .square-eyes-logo-box,
-header {
+header,
+.About-Us,
+.Header-text-box {
   width: 100%;
   max-width: 900px;
   position: relative;
@@ -33,6 +35,11 @@ header {
 .Container-1,
 .Container-4 {
   background: var(--Linear-Purple-Color);
+}
+
+.Container-3,
+.About-Us {
+  background-color: var(--Base-Blue-Color);
 }
 
 .h1-home,
@@ -68,9 +75,16 @@ header {
 .h1-home,
 .h2-home,
 .h1-Films,
-.h2-Films {
+.h2-Films,
+.Header-text-box p,
+.h1-about {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
+}
+
+#h1-Films,
+.h1-about {
+  font-size: 2rem;
 }
 
 .active-page {
@@ -226,7 +240,6 @@ nav a {
     "Carousel Carousel";
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--Base-Blue-Color);
   height: 700px;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -579,21 +592,38 @@ footer img {
 
   /* FILMS PAGE */
 
+  .All-films-box {
+    height: 300px;
+  }
   .All-films-images {
-    grid-gap: 0rem;
-    width: 200px;
+    max-width: 232px;
+    width: 100%;
+  }
+  .All-films-poster {
+    width: 55px;
+    height: 87px;
   }
 
-  .All-films-poster {
-    width: 50px;
-    height: 80px;
-    filter: drop-shadow(0.2rem 0.3rem black);
+  .Films-Categories-img {
+    width: 55px;
+    height: 87px;
+  }
+
+  .header-films-page {
+    font-size: 0.8rem;
+  }
+
+  #h1-Films {
+    font-size: 1.2rem;
+    max-width: 48px;
   }
 }
 
 /* LARGE SCREEN MOBILE MEDIA QUERIES */
 
 @media (min-width: 501px) and (max-width: 700px) {
+  /* GLOBAL STYLES */
+
   .The-Batman-img,
   .The-Batman-img-box,
   footer,
@@ -605,11 +635,15 @@ footer img {
   .WN-box,
   header,
   .All-films-box,
-  .Films-Categories-box {
+  .Films-Categories-box,
+  .About-Us,
+  .Header-text-box {
     width: 100%;
     max-width: 500px;
     position: relative;
   }
+
+  /* HEADER - HOME - FOOTER */
 
   .Container-1 {
     display: grid;
@@ -840,11 +874,71 @@ footer img {
     height: 62px;
     width: 100%;
   }
+
+  /* FILMS PAGE */
+
+  .All-films-box {
+    height: 450px;
+  }
+  .All-films-images {
+    width: 400px;
+  }
+  .All-films-poster {
+    width: 100px;
+    height: 140px;
+  }
+
+  .Films-Categories-img {
+    width: 100px;
+    height: 140px;
+  }
+
+  .header-films-page {
+    font-size: 1rem;
+  }
+
+  #h1-Films {
+    font-size: 1.5rem;
+    max-width: 98px;
+  }
+
+  /* ABOUT US PAGE */
+
+  .h1-about {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: end;
+    font-size: 1.5rem;
+  }
+
+  .About-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 28rem;
+  }
+  .About-img {
+    width: 25rem;
+  }
+
+  .Header-text-box p {
+    font-size: 0.8rem;
+  }
+
+  .P-About-box {
+    display: flex;
+    flex-direction: row;
+    max-width: 430px;
+    justify-content: center;
+  }
 }
 
 /* TABLET MEDIA QUERIES */
 
 @media (min-width: 701px) and (max-width: 900px) {
+  /* GLOBAL STYLES */
+
   .The-Batman-img,
   .The-Batman-img-box,
   footer,
@@ -856,10 +950,14 @@ footer img {
   header,
   nav,
   .All-films-box,
-  .Films-Categories-box {
+  .Films-Categories-box,
+  .About-Us,
+  .Header-text-box {
     width: 100%;
     max-width: 700px;
   }
+
+  /* HOME PAGE - HEADER - FOOTER */
 
   .Container-1 {
     align-items: center;
@@ -955,5 +1053,52 @@ footer img {
     justify-content: flex-end;
     width: 100%;
     color: white;
+  }
+
+  /* FILMS PAGE */
+
+  .All-films-box {
+    height: 600px;
+  }
+  .All-films-images {
+    width: 400px;
+  }
+  .All-films-poster {
+    width: 150px;
+    height: 200px;
+  }
+
+  .Films-Categories-img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .header-films-page {
+    font-size: 1.2rem;
+  }
+
+  #h1-Films {
+    font-size: 1.8rem;
+    max-width: 108px;
+  }
+
+  /* ABOUT US PAGE */
+
+  .h1-about {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    justify-content: end;
+  }
+
+  .About-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 37rem;
+  }
+
+  .Header-text-box p {
+    font-size: 1.2rem;
   }
 }
