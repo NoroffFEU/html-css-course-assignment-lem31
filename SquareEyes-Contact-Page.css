@@ -23,7 +23,7 @@
 .contact-flex-box {
   display: flex;
   flex-direction: row;
-  width: 50rem;
+  width: 20rem;
   justify-content: center;
 }
 .contact-box {
