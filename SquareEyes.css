@@ -72,6 +72,23 @@ header,
   display: none;
 }
 
+#search-checkbox,
+#search-box {
+  display: none;
+}
+
+#search-checkbox:checked ~ #search-box {
+  display: block;
+}
+
+#search-box {
+  flex-direction: row;
+  z-index: 8;
+  margin-top: 7rem;
+  margin-left: 20rem;
+  position: absolute;
+}
+
 .h1-home,
 .h2-home,
 .h1-Films,
@@ -141,18 +158,20 @@ nav a {
 }
 
 .Search-Cart-box {
-  align-items: center;
-  justify-content: flex-end;
-  height: 72px;
+  height: 80px;
   gap: 1rem;
   width: 100%;
+  margin-left: 2rem;
 }
 
-.search-icon,
+#search-icon-button,
 .cart-icon {
-  max-width: 4rem;
+  display: flex;
+  flex-direction: row;
+  max-width: 8rem;
   max-height: 4rem;
   align-self: end;
+  justify-self: flex-end;
 }
 
 /* HOME PAGE */
@@ -208,6 +227,8 @@ nav a {
   justify-content: center;
   align-items: start;
   width: 800px;
+  z-index: 6;
+  position: relative;
 }
 
 .Watch-now {
