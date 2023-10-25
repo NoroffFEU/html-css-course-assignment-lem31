@@ -340,6 +340,8 @@ footer img {
 /* Small Screen MOBILE MEDIA QUERIES */
 
 @media (max-width: 500px) {
+  /* GLOBAL STYLES */
+
   .The-Batman-img,
   .The-Batman-img-box,
   .h2-home-box,
@@ -352,7 +354,9 @@ footer img {
   .WN-box,
   header,
   .All-films-box,
-  .Films-Categories-box {
+  .Films-Categories-box,
+  .About-Us,
+  .Header-text-box {
     width: 100%;
     max-width: 240px;
     position: relative;
@@ -616,6 +620,43 @@ footer img {
   #h1-Films {
     font-size: 1.2rem;
     max-width: 48px;
+  }
+
+  /* ABOUT US PAGE */
+
+  .About-Us {
+    height: 20rem;
+  }
+
+  .h1-about {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: end;
+    justify-self: center;
+    font-size: 1.3rem;
+  }
+
+  .About-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 15rem;
+  }
+  .About-img {
+    width: 10rem;
+  }
+
+  .Header-text-box p {
+    font-size: 0.6rem;
+  }
+
+  .P-About-box {
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    justify-content: flex-end;
+    align-self: center;
   }
 }
 
@@ -904,10 +945,14 @@ footer img {
 
   /* ABOUT US PAGE */
 
+  .About-Us {
+    height: 30rem;
+  }
+
   .h1-about {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 110px;
     justify-content: end;
     font-size: 1.5rem;
   }
@@ -929,7 +974,7 @@ footer img {
   .P-About-box {
     display: flex;
     flex-direction: row;
-    max-width: 430px;
+    max-width: 440px;
     justify-content: center;
   }
 }
@@ -1083,6 +1128,10 @@ footer img {
   }
 
   /* ABOUT US PAGE */
+
+  .About-Us {
+    height: 40rem;
+  }
 
   .h1-about {
     display: flex;
