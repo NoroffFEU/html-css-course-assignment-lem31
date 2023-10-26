@@ -52,15 +52,16 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  height: 68px;
+  height: 50px;
 }
 
 .SquareEyes-logo {
   filter: drop-shadow(0.1rem 0.1rem white);
   grid-area: Logo;
-  max-width: 30px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
   width: 100%;
+  position: static;
 }
 
 .square-eyes-logo-box {
@@ -107,8 +108,8 @@ nav a:hover {
 .Search-Cart-Wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  width: 200px;
+  justify-content: start;
+  width: 100px;
 }
 
 .Search-Cart-box {
@@ -119,26 +120,28 @@ nav a:hover {
     "GAP GAP"
     "search cart"
     "box box";
-
-  height: 50px;
-  gap: 0;
+  height: 70px;
+  gap: 1.8rem;
   width: 100%;
   margin-left: 0;
+  column-gap: 0;
 }
 
 .search-icon,
 .cart-icon {
   max-width: 1.8rem;
   max-height: 1.8rem;
+  align-self: start;
 }
 
 .cart-icon {
   grid-area: cart;
+  justify-self: start;
 }
 
 #search-icon-button {
   grid-area: search;
-  justify-self: end;
+  justify-self: center;
   max-width: 2rem;
   max-height: 2rem;
 }
@@ -298,6 +301,10 @@ footer img {
 
   #hamburger {
     justify-self: start;
+  }
+
+  .logo-wrapper {
+    height: 64px;
   }
 
   .SquareEyes-logo {
