@@ -26,7 +26,8 @@ footer,
 .square-eyes-logo-box,
 header,
 .About-Us,
-.Header-text-box {
+.Header-text-box,
+.Contact-Page {
   width: 100%;
   max-width: 900px;
   position: relative;
@@ -38,7 +39,8 @@ header,
 }
 
 .Container-3,
-.About-Us {
+.About-Us,
+.Contact-Page {
   background-color: var(--Base-Blue-Color);
 }
 
@@ -79,7 +81,11 @@ header,
 .Header-text-box p,
 .h1-about,
 .h2-contact-box,
-.h1-contact {
+.h1-contact,
+.FN-Label,
+.Name-Label,
+.Email-Label,
+.message-label {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
 }
@@ -737,7 +743,8 @@ footer img {
   .All-films-box,
   .Films-Categories-box,
   .About-Us,
-  .Header-text-box {
+  .Header-text-box,
+  .Contact-Page {
     width: 100%;
     max-width: 500px;
     position: relative;
@@ -1041,6 +1048,28 @@ footer img {
     max-width: 440px;
     justify-content: center;
   }
+
+  /* CONTACT PAGE */
+
+  .h2-contact-box {
+    width: 32.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .h2-contact {
+    width: 16rem;
+  }
+
+  .Name-labels-box {
+    flex-direction: column;
+    width: 15rem;
+    gap: 1rem;
+  }
+
+  .contact-box {
+    width: 30rem;
+    height: 38rem;
+  }
 }
 
 /* TABLET MEDIA QUERIES */
@@ -1061,7 +1090,8 @@ footer img {
   .All-films-box,
   .Films-Categories-box,
   .About-Us,
-  .Header-text-box {
+  .Header-text-box,
+  .Contact-Page {
     width: 100%;
     max-width: 700px;
   }
@@ -1232,5 +1262,15 @@ footer img {
 
   .Header-text-box p {
     font-size: 1.2rem;
+  }
+
+  /* CONTACT PAGE */
+
+  .h2-contact-box {
+    width: 46.5rem;
+  }
+
+  .h1-contact {
+    width: 8rem;
   }
 }

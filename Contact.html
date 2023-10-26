@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name= "viewport content= width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="SquareEyes Film Website" content="SquareEyes Contact Page" >
   <link rel="stylesheet" href="SquareEyes.css">
   <link rel="icon" type="image/png" href="Images/favicon-32x32.png">
@@ -53,64 +53,67 @@
 </header>      
 
 
-  <div class="Contact-Page">
+  <section class="Contact-Page">
 
  <div class="h1-contact-box">
-<h1 class= "h1-contact">Contact</h1>
+<h1 class="h1-contact">Contact</h1>
 </div>
 
 <section class="contact-flex-box">
-<div class="contact-box">
+
+
+  <div class="contact-box">
+
  <div class="h2-contact-box">
   <h2 class="h2-contact">Contact Us</h2>
 </div>
 
-   <form class= "form-container">
-    <div class="Name-labels">
-    <legend class="FN-Label">First Name</legend>
-    <legend class="LN-Label">Last Name</legend>
+   <form>
+
+    <div class= "form-container">
+    
+   
+    <section class="Name-labels-box">
+<div class="First-Name-Wrapper">
+    <label class="Name-Label" id="FN-label" for="First-Name" type="text">First Name</label>
+    <input type="text" id="First-Name" name="First-Name"/>
   </div>
 
-  <div class="Name-inputs">
-    <input type="text" id="First-Name-Box" name="First Name">
-    <input type="text" id="Last-Name-Box" name="Last Name">
+  <div class="Last-Name-Wrapper">
+    <label class="Name-Label" id="LN-label" for="Last-Name" type="text">Last Name</label>
+    <input type="text" id="Last-Name" name="Last-Name"/>
   </div>
-  
-  <div class="email-label">
-    <legend class="Email-Label">Email</legend>
-  </div>
-  <div class="email-input-box">
-    <input type="email" id="Email-input" name="Email">
-  </div>
+    </section>
 
-  <div class="message-label">
-  <legend class="message-legend">Your message</legend>
-</div>
+    <!-- <div class="Name-inputs">
+    <input type="text" id="First-Name" name="First-Name"/>
+    <input type="text" id="Last-Name" name="Last-Name"/>
+    </div> -->
 
-<div class="message-box">
+
+
+    <div class="Email-message-boxes">
+    <label class="Email-Label" for="Email" type="text">Email</label>
+    <input type="email" id="Email-input" name="Email"/>
+ <label class="message-label" for="Your-message" type="text" >Your message</label>
   <textarea id="Your-message" name="Your-message" rows="5" cols="55">
   </textarea>
 </div>
 
-<div class="Submit-btn">
-  <button type="submit">Submit</button>
-</div>
+  <button class= "submit-btn" type="submit">Submit</button>
+
+  </div>
 
 </form>
 
-
+  </div>
 
 </section>
 
-</div>
+</section>
 
-</div>
+
 </body>
-
-     <!-- <div class="searchbox">
-      <input type=" "text" placeholder="Search Films">
-     </div> -->
-
 
 
      <footer>
