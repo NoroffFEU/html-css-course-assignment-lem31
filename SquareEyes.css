@@ -410,7 +410,8 @@ footer img {
   .All-films-box,
   .Films-Categories-box,
   .About-Us,
-  .Header-text-box {
+  .Header-text-box,
+  .Contact-Page {
     width: 100%;
     max-width: 240px;
     position: relative;
@@ -722,6 +723,54 @@ footer img {
     max-width: 200px;
     justify-content: flex-end;
     align-self: center;
+  }
+
+  /* CONTACT PAGE */
+
+  .h1-contact {
+    font-size: 1.5rem;
+    width: 6rem;
+  }
+
+  .h2-contact-box {
+    width: 11.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .h2-contact {
+    width: 20rem;
+    font-size: 1.2rem;
+    justify-content: start;
+  }
+
+  .Name-labels-box {
+    flex-direction: column;
+    width: 8rem;
+    gap: 1rem;
+  }
+
+  .Email-message-boxes,
+  #Email-input {
+    width: 3.5rem;
+  }
+
+  .message-label {
+    width: 100px;
+  }
+
+  #Your-message {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .contact-box {
+    width: 12rem;
+    height: 38rem;
+  }
+
+  .form-container {
+    width: 180px;
+    justify-content: start;
   }
 }
 
