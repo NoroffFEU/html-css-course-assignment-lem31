@@ -15,11 +15,6 @@
   width: 18rem;
 }
 
-.h1-contact {
-  font-size: 4rem;
-  color: white;
-}
-
 .contact-flex-box {
   display: flex;
   flex-direction: row;
@@ -41,9 +36,7 @@
 
 .h2-contact {
   width: 16rem;
-  font-size: 3rem;
-  color: white;
-  font-family: "Amaranth";
+  font-size: 1.5rem;
 }
 
 .Name-labels {
@@ -118,7 +111,7 @@
 .message-label {
   color: white;
   display: flex;
-  width: 9rem;
+  width: 10rem;
   justify-content: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -128,7 +121,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 40.5rem;
+  width: 40rem;
 }
 
 #Your-message {
