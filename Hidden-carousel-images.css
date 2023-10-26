@@ -157,9 +157,9 @@ nav a:hover {
 #search-box {
   display: none;
   grid-area: box;
-  z-index: 8;
+  z-index: 10;
   position: absolute;
-  margin-top: -1.8rem;
+  margin-top: 3.8rem;
   margin-left: -7rem;
   background-color: black;
   color: var(--White-Text-Color);
@@ -333,7 +333,8 @@ footer img {
 
   #search-box {
     margin-top: 4.5rem;
-    margin-left: -11rem;
+    margin-left: -13rem;
+    padding: 8px 100px;
   }
 
   /* HIDDEN IMAGES PAGE */
