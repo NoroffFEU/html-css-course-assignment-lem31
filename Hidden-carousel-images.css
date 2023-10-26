@@ -159,12 +159,12 @@ nav a:hover {
   grid-area: box;
   z-index: 8;
   position: absolute;
-  margin-top: 4.5rem;
-  margin-left: -12rem;
+  margin-top: -1.8rem;
+  margin-left: -7rem;
   background-color: black;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  max-width: 400px;
+  max-width: 150px;
   padding: 8px 60px;
 }
 
@@ -329,6 +329,11 @@ footer img {
     max-width: 2.5rem;
     max-height: 2.5rem;
     align-self: center;
+  }
+
+  #search-box {
+    margin-top: 4.5rem;
+    margin-left: -11rem;
   }
 
   /* HIDDEN IMAGES PAGE */

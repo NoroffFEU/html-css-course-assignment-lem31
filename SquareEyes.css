@@ -196,7 +196,7 @@ nav a {
 #search-box {
   display: none;
   grid-area: box;
-  z-index: 8;
+  z-index: 10;
   position: absolute;
   margin-top: 7.2rem;
   margin-left: -27.1rem;
@@ -222,11 +222,12 @@ nav a {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 4;
+  z-index: 7;
 }
 
 .h1-home {
   grid-area: H11;
-  z-index: 20;
+  z-index: 8;
   font-size: 1.5rem;
   width: 300px;
   max-height: 20px;
@@ -260,7 +261,7 @@ nav a {
   justify-content: center;
   align-items: start;
   width: 800px;
-  z-index: 6;
+  z-index: 8;
   position: relative;
 }
 
@@ -502,7 +503,6 @@ footer img {
     padding: 8px 20px;
     margin-left: -10rem;
     margin-top: 5.1rem;
-    z-index: 7;
   }
 
   .search-icon,
@@ -520,7 +520,6 @@ footer img {
   .h1-home {
     font-size: 0.5rem;
     margin: 0px;
-    z-index: 6;
   }
 
   .The-Batman-img-box {
@@ -546,7 +545,6 @@ footer img {
     align-content: start;
     align-items: start;
     height: 50px;
-    z-index: 6;
   }
 
   .WN-box {
@@ -578,7 +576,6 @@ footer img {
     overflow-x: hidden;
     overflow-y: hidden;
     overscroll-behavior-inline: none;
-    z-index: 9;
     width: 300px;
     position: static;
   }
@@ -590,7 +587,6 @@ footer img {
     overflow-y: hidden;
     overflow-x: hidden;
     position: static;
-    z-index: 8;
   }
 
   .Right-chevron {
