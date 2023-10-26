@@ -17,29 +17,38 @@
 </head>
 
    <header>
-    <section class="Container-1">
+    <div class="Container-1">
+
       <div class="square-eyes-logo-box">
-<img class= "SquareEyes-logo" src="Images/Logo4.png" alt="Square Eyes logo">
+              <img class= "SquareEyes-logo" src="Images/Logo4.png" alt="Square Eyes logo">
+            </div>
+            
+       <input type="checkbox" id="mobile-checkbox"> 
+       <label id="hamburger" for="mobile-checkbox"><i tabindex="0" class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></label>
+        
+      <nav aria-label="navigation menu">
+        
+        <a tabindex="0" aria-label="navigation menu home" class="active-page" href="index.html">Home</a>
+       <a tabindex="0" aria-label="navigation menu Films" href="Films.html">Films</a>
+      <a tabindex="0" aria-label="navigation menu About Us" href="AboutUs.html">About Us</a>
+       <a tabindex="0" aria-label="navigation menu Contact" href="Contact.html">Contact</a>
+      </nav>
+      
+      
+       
+      
+      <div class="Search-Cart-box">
+      <input type="checkbox" id="search-checkbox"> 
+      <label id="search-icon-button" for="search-checkbox"><img class="search-icon" src="Images/SearchIcon-white.png" alt="Search icon"></label>
+      
+      <img class= "cart-icon"  src="Images/CartIcon-White.png" alt="Cart icon">
+      
+      <input id="search-box" type="search" "text" placeholder="Search Films">
+      
+      
       </div>
-
-<input type="checkbox" id="mobile-checkbox">
-<label id="hamburger" for="mobile-checkbox"><i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></label>
-
-<nav class="nav">
-  <ul>
-   <li><a href="index.html">Home</a></li>
-  <li> <a href="Films.html">Films</a></li>
-  <li> <a href="AboutUs.html">About Us</a></li>
-  <li> <a href="Contact.html">Contact</a></li>
-  </ul>
-</nav>
-
-<img class="searchicon"  src="Images/SearchIcon-white.png">
-<img class= "carticon"  src="Images/CartIcon-White.png">
-</section>
-     <!-- <div class="searchbox">
-      <input type=" "text" placeholder="Search Films">
-     </div> -->
+      </div>
+</header>      
 
 
 
