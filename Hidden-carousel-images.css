@@ -20,13 +20,12 @@ header {
   );
   padding-bottom: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-template-areas: "Hamburger Logo Search-Cart";
-  grid-gap: 1rem;
-  max-height: 2rem;
-  width: 100%;
   justify-items: center;
   align-content: center;
+  max-height: 4rem;
+  width: 100%;
 }
 
 #hamburger {
@@ -58,17 +57,19 @@ header {
 .SquareEyes-logo {
   filter: drop-shadow(0.1rem 0.1rem white);
   grid-area: Logo;
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 70px;
+  max-height: 60px;
   width: 100%;
   position: static;
+  align-self: center;
 }
 
 .square-eyes-logo-box {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-self: center;
   width: 100px;
-  justify-content: end;
 }
 
 nav {
