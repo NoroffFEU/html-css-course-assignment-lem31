@@ -107,24 +107,23 @@ header,
 
 
 .Container-1 {
+  flex: 0, 0, 80px;
+  aspect-ratio: 0;
   align-content: center;
   justify-content: center;
-  column-gap: 0rem;
   padding-bottom: 1rem;
 }
 
 .square-eyes-logo-box{
   display: flex;
   flex-direction: row;
-width: 1000px;
-  justify-items: center;
+  justify-content: center;
 }
 
 .SquareEyes-logo {
   width: 8rem;
-height: 7rem;
+height: 5.5rem;
   filter: drop-shadow(0.1rem 0.1rem white);
-  align-self: center;
   z-index: 9;
   position: static;
 }
@@ -159,17 +158,11 @@ nav a {
   max-width: 10rem;
 }
 
-.Search-Cart-Wrapper{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: static;
-  height: 8rem;
-}
+
+
 .Search-Cart-box {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(auto-fit, minmax 100px);
   grid-template-rows: 1fr, 1fr, 1fr;
   grid-template-areas:
     "GAP GAP"
@@ -180,7 +173,7 @@ nav a {
   gap: 0.5rem;
   width: 100%;
   max-width: 50rem;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   position: static;
 }
@@ -437,11 +430,11 @@ footer img {
 
   .Container-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     grid-template-areas: "Hamburger Logo Search-Cart";
-    grid-gap: 1rem;
-    max-height: 2rem;
     justify-items: center;
+    align-items: center;
+    gap: 0;
   }
 
   .square-eyes-logo-box {
@@ -839,18 +832,21 @@ footer img {
 
   .Container-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-areas: "Hamburger Logo Search-Cart";
+    justify-items: center;
+    align-items: center;
+    gap: 0;
   }
 
   .square-eyes-logo-box {
-    width: 160px;
-    justify-content: flex-end;
+    width: 100px;
   }
 
   .SquareEyes-logo {
     grid-area: Logo;
     max-width: 100px;
+    max-height: 90px;
     width: 100%;
     margin-top: 0.5rem;
     position: static;
@@ -908,7 +904,7 @@ footer img {
     grid-gap: 2.5rem;
     grid-column-gap: 1.5rem;
     width: 100%;
-    justify-content: start;
+    justify-content: center;
   }
 
   #search-box {
@@ -923,7 +919,6 @@ footer img {
     max-width: 3rem;
     max-height: 2rem;
     align-self: center;
-    justify-self: end;
   }
 
   /* HOME PAGE */
