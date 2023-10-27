@@ -671,18 +671,73 @@ footer img {
     margin-right: 1rem;
   }
 
-  /* FILMS PAGE */
+ /* FILMS PAGE */
 
-  .All-films-box {
-    height: 300px;
-  }
-  .All-films-images {
-    max-width: 232px;
-    width: 100%;
-  }
+
+
+
+ .All-films-box {
+  max-height: 750px;
+}
+
+.All-films-images-box {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.All-films-images {
+grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+  column-gap: 0;
+  row-gap: 0;
+  max-width: 313px;
+  justify-content: center;
+}
+
+
+.Films-Categories-box {
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  position: relative;
+  overflow-y: hidden;
+  overflow: scroll;
+}
+
+.Film-cat-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 3.4rem;
+  max-width: 325px;
+}
+
+.cat-img-box {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.Film-cat-row-1,
+.Film-cat-row-2,
+.Film-cat-row-4,
+.Film-cat-row-5 {
+position: static;
+max-width: 345px;
+width: 100%;
+align-self: center;
+}
+
+
+
   .All-films-poster {
-    width: 55px;
-    height: 87px;
+    width: 75px;
+    height: 107px;
   }
 
   .Films-Categories-img {
@@ -1102,13 +1157,16 @@ footer img {
     position: relative;
   }
 
-  .Film-cat-row-1,
+ 
+
+.Film-cat-row-1,
 .Film-cat-row-2,
 .Film-cat-row-4,
 .Film-cat-row-5 {
   position: static;
-  max-width: 700px;
+  max-width: 432px;
   width: 100%;
+  align-self: center;
 }
   
 
