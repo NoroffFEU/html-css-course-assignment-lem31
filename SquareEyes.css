@@ -29,7 +29,7 @@ header,
 .Header-text-box,
 .Contact-Page {
   width: 100%;
-  max-width: 2000px;
+  max-width: 1900px;
   position: relative;
 }
 
@@ -403,10 +403,10 @@ footer img {
   .h2-home-box,
   .h1-home,
   footer,
-  .Container-4,
   .Container-1,
   .Container-2,
   .Container-3,
+  .Container-4,
   .WN-box,
   header,
   .All-films-box,
@@ -523,19 +523,6 @@ footer img {
     margin: 0px;
   }
 
-  .The-Batman-img-box {
-    width: 100%;
-    max-width: 500px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas: "H11 H12 H13 H14 H15";
-  }
-
-  .The-Batman-img {
-    width: 100%;
-    max-width: 500px;
-  }
-
   .h2-home-box {
     grid-area: H11;
     display: flex;
@@ -561,7 +548,7 @@ footer img {
     grid-area: H12;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     width: 100%;
     position: relative;
   }
@@ -604,15 +591,17 @@ footer img {
   .Right-chevron {
     width: 100px;
     height: 80px;
+    position static;
   }
 
   .Right-chevron-box {
-    height: 100px;
+    max-height: 50px;
     display: flex;
     flex-direction: column;
     z-index: 7;
-    margin-top: -5rem;
+    margin-top: -6rem;
     margin-left: 1rem;
+    position static;
   }
 
   .Dark {
@@ -914,7 +903,6 @@ footer img {
 
   .The-Batman-img-box {
     grid-template-columns: 1fr 3fr auto auto;
-    overflow-x: hidden;
   }
 
   .h2-home-box {
@@ -960,7 +948,9 @@ footer img {
   }
 
   .Container-3 {
-    height: 400px;
+    height: 500px;
+    z-index: 8;
+    position: relative;
   }
 
   .h3-home {
@@ -968,41 +958,44 @@ footer img {
   }
 
   .carousel {
-    width: 1000px;
     overflow-x: hidden;
     overflow-y: hidden;
     overscroll-behavior-inline: none;
+    max-width: 900px;
+    width: 100%;
     position: static;
   }
 
   .carousel img {
-    max-width: 7.7rem;
+    width: 100%;
+    max-width: 13.5rem;
+    margin-left: 0.3rem;
+    filter: drop-shadow(0.4rem 0.2rem black);
     overflow-y: hidden;
+    overflow-x: hidden;
     position: static;
-    margin-left: 0rem;
+  }
+
+  .Fun-Treasure,
+  .Vulture,
+  #PowerPuffFlowers,
+  .Learning-TFIL {
+    display: none;
   }
 
   .Right-chevron {
     width: 200px;
-    height: 200px;
+    height: 150px;
+    position: static;
   }
 
   .Right-chevron-box {
-    display: inline-flex;
+    max-height; 50px;
+    display: flex;
+    flex-direction: column;
     z-index: 7;
-    position: static;
     margin-top: -12rem;
     margin-left: 1rem;
-  }
-
-  .Dark {
-    margin-left: 1rem;
-  }
-
-  .Faith {
-    width: 100%;
-    max-width: 300px;
-    white-space: none;
   }
 
   /* FOOTER */
@@ -1135,227 +1128,3 @@ footer img {
     height: 38rem;
   }
 }
-
-/* TABLET MEDIA QUERIES */
-
-/* @media (min-width: 701px) and (max-width: 900px) { */
-/* GLOBAL STYLES */
-
-/* .The-Batman-img,
-  .The-Batman-img-box,
-  footer,
-  .square-eyes-logo-box,
-  .Container-1,
-  .Container-4,
-  .Container-2,
-  .Container-3,
-  header,
-  nav,
-  .All-films-box,
-  .Films-Categories-box,
-  .About-Us,
-  .Header-text-box,
-  .Contact-Page {
-    width: 100%;
-    max-width: 700px;
-  } */
-
-/* HEADER*/
-/* 
-  .Container-1 {
-    align-items: center;
-    justify-content: start;
-  }
-
-  .square-eyes-logo-box {
-    max-width: 500px;
-    width: 100%;
-  }
-
-  .SquareEyes-logo {
-    width: 100%;
-    margin-top: 0.5rem;
-  }
-
-  nav {
-    position: static;
-    justify-content: start;
-    margin-left: 0;
-  }
-
-  nav a {
-    padding: 1rem 1rem;
-    font-size: 1rem;
-  }
-
-  .Search-Cart-box {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 1fr, 1fr, 1fr;
-    grid-template-areas:
-      "GAP1 GAP2"
-      "search cart"
-      "box box";
-    height: 100px;
-    grid-gap: 2.2rem;
-    grid-column-gap: 1rem;
-    width: 100%;
-  }
-
-  .search-icon,
-  .cart-icon {
-    width: 2.5rem;
-    max-height: 2.5rem;
-    grid-area: cart;
-    justify-self: start;
-    align-self: center;
-  }
-
-  #search-box {
-    margin-left: -25rem;
-  } */
-
-/* HOME PAGE */
-
-/* .h1-home {
-    font-size: 1rem;
-  }
-
-  .The-Batman-img-box {
-    width: 100%;
-    grid-template-columns: 1fr 3fr auto auto;
-  }
-
-  .WN-box {
-    grid-area: H12;
-    display: flex;
-    flex-direction: row;
-    width: 300px;
-    height: 200px;
-    justify-content: end;
-    align-items: center;
-    position: static;
-    justify-self: center;
-  }
-
-  .Watch-now {
-    grid-area: H12;
-    height: 130px;
-    width: 130px;
-    padding: 60px 8px 60px 8px;
-    filter: drop-shadow(0rem 0.3rem rgb(0, 0, 0));
-    font-size: 1rem;
-    position: static;
-  }
-
-  .h2-home-box {
-    grid-area: H11;
-    display: flex;
-    flex-direction: row;
-    width: 310px;
-    height: 200px;
-    position: static;
-  }
-
-  .h2-home {
-    grid-area: H11;
-    display: flex;
-    flex-direction: column;
-    font-size: 2.5rem;
-    column-span: 2;
-    justify-content: center;
-    align-content: start;
-    align-items: center;
-  } */
-
-/* FOOTER */
-
-/* .CR-text-box {
-    max-width: 680px;
-    justify-content: flex-end;
-    width: 100%;
-    color: white;
-  } */
-
-/* FILMS PAGE */
-/* 
-  .All-films-box {
-    height: 600px;
-  }
-  .All-films-images {
-    width: 400px;
-  }
-  .All-films-poster {
-    width: 150px;
-    height: 200px;
-  }
-
-  .Films-Categories-img {
-    width: 150px;
-    height: 200px;
-  }
-
-  .header-films-page {
-    font-size: 1.2rem;
-  }
-
-  #h1-Films {
-    font-size: 1.8rem;
-    max-width: 108px;
-  } */
-
-/* ABOUT US PAGE */
-
-/* .About-Us {
-    height: 40rem;
-  }
-
-  .h1-about {
-    display: flex;
-    flex-direction: row;
-    width: 160px;
-    justify-content: end;
-  }
-
-  .About-img-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 37rem;
-  }
-
-  .Header-text-box p {
-    font-size: 1.2rem;
-  } */
-
-/* CONTACT PAGE */
-
-/* .h2-contact-box {
-    width: 46.5rem;
-  }
-
-  .h1-contact {
-    width: 8rem;
-  }
-} */
-
-/* @media (min-width: 1201px) {
-  .The-Batman-img,
-  .The-Batman-img-box,
-  footer,
-  .Container-1,
-  .Container-2,
-  .Container-3,
-  .Container-4,
-  .All-films-box,
-  .Films-Categories-box,
-  .square-eyes-logo-box,
-  header,
-  .About-Us,
-  .Header-text-box,
-  .Contact-Page {
-    width: 100%;
-    max-width: 2000px;
-    position: relative;
-  }
-} */
