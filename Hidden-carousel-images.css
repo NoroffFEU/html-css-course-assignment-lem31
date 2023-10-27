@@ -264,19 +264,6 @@ footer img {
   margin-right: 1rem;
 }
 
-.CR-text-box p {
-  font-size: 0.3rem;
-  color: white;
-  display: flex;
-  justify-content: end;
-}
-
-.CR-text-box {
-  max-width: 238px;
-  justify-content: flex-end;
-  width: 100%;
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 501px) and (max-width: 700px) {
@@ -374,15 +361,5 @@ footer img {
 
   .footer-content-box {
     height: 14rem;
-  }
-
-  .CR-text-box p {
-    justify-content: end;
-  }
-
-  .CR-text-box {
-    max-width: 480px;
-    justify-content: flex-end;
-    width: 100%;
   }
 }

@@ -62,7 +62,6 @@ header,
 .WN-box,
 .SMI-imgs-box,
 .footer-links-box,
-.CR-text-box,
 .h1-Films,
 .h2-Films {
   display: flex;
@@ -395,12 +394,6 @@ footer img {
   margin-left: 0.2rem;
 }
 
-.CR-text-box {
-  max-width: 870px;
-  justify-content: flex-end;
-  width: 100%;
-  color: white;
-}
 
 /* Small Screen MOBILE MEDIA QUERIES */
 
@@ -445,7 +438,7 @@ footer img {
   .SquareEyes-logo {
     grid-area: Logo;
     max-width: 80px;
-    max-height: 40px;
+    max-height: 50px;
     width: 100%;
     margin-top: 0.5rem;
     position: static;
@@ -621,6 +614,7 @@ footer img {
   .Right-chevron-box {
     height: 180px;
     display: flex;
+    flex 0;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
@@ -675,15 +669,6 @@ footer img {
     height: 1rem;
     width: 1rem;
     margin-right: 1rem;
-  }
-
-  .CR-text-box p {
-    font-size: 0.3rem;
-  }
-
-  .CR-text-box {
-    max-width: 230px;
-    justify-self: flex-end;
   }
 
   /* FILMS PAGE */
@@ -1060,17 +1045,6 @@ footer img {
     margin-right: 1rem;
   }
 
-  .CR-text-box p {
-    font-size: 0.7rem;
-  }
-
-  .CR-text-box {
-    max-width: 480px;
-    justify-content: flex-end;
-    align-items: end;
-    height: 62px;
-    width: 100%;
-  }
 
   /* FILMS PAGE */
 
