@@ -825,13 +825,13 @@ footer img {
   }
 
   .square-eyes-logo-box {
-    width: 100px;
+    width: 120px;
   }
 
   .SquareEyes-logo {
     grid-area: Logo;
-    max-width: 100px;
-    max-height: 90px;
+    max-width: 140px;
+    max-height: 70px;
     width: 100%;
     margin-top: 0.5rem;
     position: static;
