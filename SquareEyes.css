@@ -109,8 +109,6 @@ body, header, .Container-1{
 
 
 
-
-
 .Container-1 {
   flex: 0, 0, 80px;
   aspect-ratio: 0;
@@ -218,10 +216,11 @@ nav a {
   background-color: black;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  max-width: 1900px;
+  max-width: 400px;
   width: 100%;
   padding: 8px 60px;
-  justify-self:  end;
+  justify-self:end;
+  
 }
 
 /* HOME PAGE */
@@ -333,19 +332,23 @@ h3 {
   width: 100%;
   display: flex;
   position: relative;
-  margin-left: -0.5rem;
   overflow: hidden;
   overflow-x: scroll;
   overflow-y: hidden;
   overscroll-behavior-inline: contain;
   scroll-behavior: smooth;
+
 }
 
 .carousel img {
-  max-width: 15rem;
-  margin-left: 0.7rem;
+  width: 15rem;
+  margin:0;
   filter: drop-shadow(0.7rem 0.7rem black);
   overflow-y: hidden;
+}
+
+.Dark{
+  margin-left: 0;
 }
 
 .Right-chevron-box {
@@ -641,9 +644,7 @@ footer img {
   }
 
 
-  .Dark {
-    margin-left: 0.3rem;
-  }
+ 
 
   .Fun-Treasure,
   .Vulture,
@@ -1056,12 +1057,12 @@ align-self: center;
     max-width: 900px;
     width: 100%;
     position: static;
+    margin: 0;
   }
 
   .carousel img {
     width: 100%;
     max-width: 13.5rem;
-    margin-left: 0.3rem;
     filter: drop-shadow(0.4rem 0.2rem black);
     overflow-y: hidden;
     overflow-x: hidden;
