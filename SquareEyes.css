@@ -347,9 +347,6 @@ h3 {
   overflow-y: hidden;
 }
 
-.Dark{
-  margin-left: 0;
-}
 
 .Right-chevron-box {
   display: none;
@@ -615,7 +612,6 @@ footer img {
   .carousel img {
     width: 100%;
     max-width: 8rem;
-    margin-left: 0.3rem;
     filter: drop-shadow(0.4rem 0.2rem black);
     overflow-y: hidden;
     overflow-x: hidden;
