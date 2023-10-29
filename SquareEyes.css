@@ -181,6 +181,7 @@ nav a {
   justify-content: center;
   align-items: center;
   position: static;
+  z-index: 9;
 }
 
 #search-icon-button,
@@ -213,12 +214,11 @@ nav a {
   grid-area: box;
   z-index: 10;
   position: absolute;
-  margin-top: 11.5rem;
-  margin-left: -15rem;
+  margin-top: 11rem;
   background-color: black;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  max-width: 400px;
+  max-width: 1900px;
   width: 100%;
   padding: 8px 60px;
   justify-self:  end;

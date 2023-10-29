@@ -9,6 +9,12 @@ header {
   width: 100%;
 }
 
+body,
+header,
+.Container-1 {
+  margin: 0;
+}
+
 /* HEADER */
 
 .Container-1 {
@@ -23,21 +29,26 @@ header {
   grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-template-areas: "Hamburger Logo Search-Cart";
   justify-items: center;
-  align-content: center;
-  max-height: 4rem;
-  width: 100%;
+  align-items: center;
   gap: 0;
+  position: relative;
 }
 
-#hamburger {
-  grid-area: Hamburger;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
-  width: 1rem;
+.square-eyes-logo-box {
+  justify-content: center;
+  align-content: center;
+  width: 80px;
+}
+
+.SquareEyes-logo {
+  grid-area: Logo;
+  max-width: 80px;
+  max-height: 50px;
+  width: 100%;
   position: static;
   align-self: center;
-  justify-self: center;
+  justify-self: end;
+  filter: drop-shadow(0.1rem 0.1rem white);
 }
 
 #mobile-checkbox {
@@ -47,25 +58,6 @@ header {
 #mobile-checkbox:checked ~ nav {
   display: block;
 }
-
-.SquareEyes-logo {
-  filter: drop-shadow(0.1rem 0.1rem white);
-  grid-area: Logo;
-  max-width: 70px;
-  max-height: 60px;
-  width: 100%;
-  position: static;
-  align-self: center;
-}
-
-.square-eyes-logo-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-self: center;
-  width: 100px;
-}
-
 nav {
   display: none;
   grid-area: Hamburger;
@@ -76,9 +68,10 @@ nav {
   max-width: 100%;
   min-width: 100px;
   z-index: 9;
-  margin-top: 6rem;
+  margin-top: 4.9rem;
+  margin-left: 5.2rem;
   white-space: no-wrap;
-  margin-left: 7rem;
+  float: left;
 }
 
 nav a {
@@ -103,45 +96,52 @@ nav a:hover {
   border: 4px solid purple;
 }
 
-.Search-Cart-Wrapper {
+#hamburger {
+  grid-area: Hamburger;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  width: 100px;
+  flex-direction: column;
+  width: 1rem;
+  position: static;
+  align-self: center;
+  justify-self: center;
 }
 
 .Search-Cart-box {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(auto-fit, minmax 100px);
   grid-template-rows: 1fr, 1fr, 1fr;
   grid-template-areas:
     "GAP GAP"
     "search cart"
     "box box";
-  height: 70px;
-  gap: 1.8rem;
+  column-gap: 0rem;
+  gap: 0.5rem;
+  height: 100px;
   width: 100%;
-  margin-left: 0;
-  column-gap: 0;
+  max-width: 50rem;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  z-index: 9;
 }
 
 .search-icon,
 .cart-icon {
   max-width: 1.8rem;
   max-height: 1.8rem;
-  align-self: start;
 }
 
 .cart-icon {
   grid-area: cart;
-  justify-self: start;
+  align-self: center;
 }
 
 #search-icon-button {
   grid-area: search;
-  justify-self: center;
   max-width: 2rem;
   max-height: 2rem;
+  align-self: center;
+  justify-self: end;
 }
 
 #search-checkbox {
@@ -157,13 +157,14 @@ nav a:hover {
   grid-area: box;
   z-index: 10;
   position: absolute;
-  margin-top: 3.8rem;
-  margin-left: -7rem;
-  /* background-color: black;
-  color: var(--White-Text-Color);
-  border: 2px solid #9747ff; */
-  height: 3rem;
-  padding: 9px 20px;
+  margin-top: 6.5rem;
+  width: 100%;
+  padding: 8px 60px;
+  justify-self: end;
+  max-width: 250px;
+  background-color: black;
+  color: white;
+  border: 10px solid #9747ff;
 }
 
 /* HIDDEN IMAGES PAGE */
@@ -202,10 +203,12 @@ nav a:hover {
   height: 70px;
   justify-content: flex-end;
   align-items: end;
+  z-index: 8;
 }
 
 .material-symbols-outlined {
   color: white;
+  z-index: 8;
 }
 
 .Fun-Treasure {
@@ -292,31 +295,39 @@ footer img {
   }
 
   nav {
-    margin-left: -25.2rem;
+    margin-left: 7rem;
     position: absolute;
   }
 
   .Search-Cart-box {
-    gap: 1rem;
-    align-content: end;
+    grid-column-gap: 1rem;
+    width: 100%;
     justify-content: center;
-    max-width: 100%;
-    height: 80px;
   }
 
   .search-icon,
   .cart-icon {
-    display: flex;
-    flex-direction: column;
-    max-width: 2.5rem;
-    max-height: 2.5rem;
-    align-self: center;
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+  }
+
+  .cart-icon {
+    grid-area: cart;
+    justify-self: start;
+  }
+
+  #search-icon-button {
+    grid-area: search;
+    justify-self: center;
+    max-width: 2rem;
+    max-height: 2rem;
   }
 
   #search-box {
-    margin-top: 4.5rem;
+    margin-top: 7.5rem;
     margin-left: -13rem;
     padding: 8px 100px;
+    max-width: 500px;
   }
 
   /* HIDDEN IMAGES PAGE */
