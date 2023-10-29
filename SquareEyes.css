@@ -635,6 +635,7 @@ footer img {
     width: 80px;
     margin: auto;
   }
+
   .Right-chevron-box {
     height: 50px;
     display: flex;
@@ -1078,6 +1079,7 @@ align-self: center;
     overflow-y: hidden;
     overflow-x: hidden;
     position: static;
+    margin:0;
   }
 
   .Fun-Treasure,
@@ -1087,20 +1089,40 @@ align-self: center;
     display: none;
   }
 
+  .Faith{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+   position: relative;
+  }
+
   .Right-chevron {
     width: 200px;
-    height: 150px;
-    position: static;
+    height: 200px;
+    position absolute;
+    z-index: 8;
+ }
+
+  .Chevron-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 80px;
+    width: 110px;
     margin: auto;
   }
 
+  
   .Right-chevron-box {
-    max-height; 50px;
+    height: 50px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    z-index: 7;
-    margin-top: -12rem;
-    margin-left: 1rem;
+    z-index: 8;
+    margin-top: -9rem;
+    position absolute;
+    overflow: hidden;
   }
 
   /* FOOTER */
