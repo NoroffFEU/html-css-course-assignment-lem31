@@ -622,24 +622,39 @@ footer img {
   .Right-chevron {
     width: 100px;
     height: 100px;
-    position static;
+    position absolute;
     z-index: 8;
-  
+ 
   }
 
-  .Right-chevron-box {
-    height: 180px;
+  .Chevron-wrapper{
     display: flex;
-    flex 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: start;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+  }
+  .Right-chevron-box {
+    height: 50px;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     z-index: 8;
     margin-top: -7rem;
-    position static;
+    position absolute;
+    overflow: hidden;
   }
 
+.Faith{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+ position: relative;
 
+
+}
  
 
   .Fun-Treasure,
@@ -1076,6 +1091,7 @@ align-self: center;
     width: 200px;
     height: 150px;
     position: static;
+    margin: auto;
   }
 
   .Right-chevron-box {
