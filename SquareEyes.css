@@ -221,6 +221,7 @@ nav a {
   max-width: 400px;
   width: 100%;
   padding: 8px 60px;
+  justify-self:  end;
 }
 
 /* HOME PAGE */
@@ -519,8 +520,9 @@ footer img {
 
   #search-box {
     padding: 8px 20px;
-    margin-left: -5rem;
+    max-width: 200px;
     margin-top: 11.4rem;
+    justify-self:  end;
   }
 
   .search-icon,
@@ -967,11 +969,11 @@ align-self: center;
 
   #search-box {
     padding: 8px 25px;
-    margin-left: -6rem;
     margin-top: 11.5rem;
     position: absolute;
     width: 100%;
     max-width: 260px;
+    justify-self:  end;
   }
 
   .search-icon,
