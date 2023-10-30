@@ -11,7 +11,10 @@ header {
 
 body,
 header,
-.Container-1 {
+.Container-1,
+.Hidden-images-box,
+.Container-5,
+.Container-4 {
   margin: 0;
 }
 
@@ -278,6 +281,15 @@ footer img {
   .Hidden-images-box {
     max-width: 500px;
     width: 100%;
+  }
+
+  body,
+  header,
+  .Container-1,
+  .Hidden-images-box,
+  .Container-5,
+  .Container-4 {
+    margin: 0;
   }
 
   /* HEADER */
