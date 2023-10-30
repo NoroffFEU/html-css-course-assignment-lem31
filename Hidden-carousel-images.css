@@ -5,13 +5,17 @@
 .footer,
 .footer-content-box,
 .Hidden-images-box,
-header {
+header,
+body {
   max-width: 250px;
-  width: 100%;
+  width: 100vw;
+  position: relative;
 }
 
 body,
 header,
+footer,
+main,
 .Container-1,
 .Hidden-images-box,
 .Container-5,
@@ -275,7 +279,8 @@ footer img {
   .footer,
   .footer-content-box,
   .Hidden-images-box,
-  header {
+  header,
+  body {
     max-width: 500px;
     width: 100%;
   }
