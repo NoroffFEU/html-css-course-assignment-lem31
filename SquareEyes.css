@@ -101,7 +101,7 @@ header,
   border: none;
 }
 
-body, header, .Container-1, .The-Batman-img-box, .The-Batman-img{
+body, header, main .Container-1, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
   margin: 0;
 }
 
@@ -203,6 +203,7 @@ nav a:hover{
   grid-area: cart;
   align-self: center;
 }
+
 
 #search-checkbox {
   display: none;
@@ -375,7 +376,7 @@ width: 480px;
   );
   border: 0.1px black;
   border-radius: 10rem 10rem 10rem 10rem;
-  padding: 50px 5px 50px 5px;
+  padding: 50px 50px 50px 20px;
   filter: drop-shadow(0rem 0.5rem rgb(0, 0, 0));
   transform: rotate(-10deg);
   z-index: 10;
@@ -384,6 +385,11 @@ width: 480px;
   position: static;
   overflow:hidden;
   width: inherit;
+  white-space: nowrap;
+}
+
+.Watch-now:hover{
+background: rgba(0, 0, 0, 0.260); 
 }
 
 .Container-3 {
@@ -1093,7 +1099,7 @@ align-self: center;
   .Header-text-box,
   .Contact-Page {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     position: relative;
   }
 
@@ -1465,7 +1471,6 @@ align-self: center;
 
 
 
-
   .All-films-box {
     max-height: 750px;
   }
@@ -1517,7 +1522,6 @@ align-self: center;
     position: relative;
   }
 
- 
 
 .Film-cat-row-1,
 .Film-cat-row-2,

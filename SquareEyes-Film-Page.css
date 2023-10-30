@@ -108,6 +108,14 @@ body {
   filter: drop-shadow(0.2rem 0.2rem black);
 }
 
+.All-films-poster:hover {
+  opacity: 0.5;
+}
+
+.Films-Categories-img:hover {
+  opacity: 0.5;
+}
+
 .Films-Categories-img {
   margin-left: 1rem;
 }
