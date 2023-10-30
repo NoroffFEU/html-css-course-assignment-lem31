@@ -102,7 +102,7 @@ header,
   border: none;
 }
 
-body, header, main .Container-1, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
+body, header, main, footer, html, .Container-1, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
   margin: 0;
 }
 
@@ -782,23 +782,6 @@ footer img {
   
   }
   
- 
-
- 
-
-
-
-
-
-
-
-
-
-  
-
-
-
- 
 
 
   .Container-3 {
@@ -993,39 +976,50 @@ align-self: center;
   /* ABOUT US PAGE */
 
   .About-Us {
-    height: 20rem;
+    height: 30rem;
   }
-
+  
+  .About-Us-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
   .h1-about {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 180px;
     justify-content: end;
-    justify-self: center;
-    font-size: 1.3rem;
+    align-items: center;
   }
-
-  .About-img-box {
+  
+  .Header-text-box {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    max-width: 15rem;
+    flex-direction: column;
+    width: 300px;
   }
-  .About-img {
-    width: 10rem;
-  }
-
+  
   .Header-text-box p {
-    font-size: 0.6rem;
-  }
+    font-size: 0.8rem;
+    width: 200px;
 
+  }
+  
+  .About-img {
+    width: 40vw;
+  }
+  
   .P-About-box {
     display: flex;
     flex-direction: row;
-    max-width: 200px;
-    justify-content: flex-end;
-    align-self: center;
+    max-width: 40vw;
+    max-height: 60vh;
+    justify-content: center;
+    align-items: center;
   }
+  
 
   /* CONTACT PAGE */
 

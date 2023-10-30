@@ -3,6 +3,7 @@
 .About-Us {
   height: 50rem;
 }
+
 .About-Us-wrapper {
   display: flex;
   flex-direction: column;
