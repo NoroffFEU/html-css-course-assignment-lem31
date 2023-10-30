@@ -1036,8 +1036,8 @@ align-self: center;
 
   .h2-contact-box {
     width: 100%;
-    max-width: 11.5rem;
-    margin-bottom: 2rem;
+    max-width: 17.5rem;
+
   }
 
   .h2-contact {
@@ -1068,13 +1068,16 @@ align-self: center;
   }
 
   .contact-box {
-    width: 12rem;
-    height: 38rem;
+    width: 18rem;
+    height: 30rem;
+
   }
 
   .form-container {
-    width: 180px;
+    display: flex;
+    flex-direction: column;
     justify-content: start;
+    width: 280px;
   }
 }
 
