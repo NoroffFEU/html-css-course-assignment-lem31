@@ -4,6 +4,7 @@
 .Container-5,
 .footer,
 .footer-content-box,
+.Hidden-images-box,
 header {
   max-width: 250px;
   width: 100%;
@@ -14,7 +15,8 @@ header,
 .Container-1,
 .Hidden-images-box,
 .Container-5,
-.Container-4 {
+.Container-4,
+.Hidden-images-box img {
   margin: 0;
 }
 
@@ -195,9 +197,8 @@ nav a:hover {
 }
 
 .Hidden-images-box img {
-  max-width: 3.7rem;
-  margin-left: 0.2rem;
-  filter: drop-shadow(0.2rem 0.3rem black);
+  max-width: 3.9rem;
+  filter: drop-shadow(0.1rem 0.2rem black);
 }
 
 .return-key-box {
@@ -212,10 +213,6 @@ nav a:hover {
 .material-symbols-outlined {
   color: white;
   z-index: 8;
-}
-
-.Fun-Treasure {
-  margin-left: -0.2rem;
 }
 
 .Container-4 {
@@ -272,13 +269,13 @@ footer img {
 
 @media (min-width: 501px) and (max-width: 700px) {
   .Container-1,
+  .square-eyes-logo-box,
   .Container-4,
   .Container-5,
-  footer,
+  .footer,
   .footer-content-box,
-  header,
-  main,
-  .Hidden-images-box {
+  .Hidden-images-box,
+  header {
     max-width: 500px;
     width: 100%;
   }
@@ -287,6 +284,7 @@ footer img {
   header,
   .Container-1,
   .Hidden-images-box,
+  .Hidden-images-box img,
   .Container-5,
   .Container-4 {
     margin: 0;
@@ -349,9 +347,8 @@ footer img {
   }
 
   .Hidden-images-box img {
-    max-width: 7.5rem;
-    margin-left: 0.3rem;
-    filter: drop-shadow(0.3rem 0.3rem black);
+    max-width: 7.8rem;
+    filter: drop-shadow(0.1rem 0.3rem black);
   }
 
   .return-key-box {
