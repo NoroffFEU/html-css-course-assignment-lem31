@@ -161,6 +161,11 @@ nav a {
   max-width: 10rem;
 }
 
+nav a:hover{
+  background-color: #A6A6A6;
+  border-color: #A6A6A6;
+}
+
 
 
 .Search-Cart-box {
