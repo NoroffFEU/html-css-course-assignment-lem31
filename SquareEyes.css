@@ -1205,6 +1205,7 @@ align-self: center;
     min-height: 0;
     min-width: 0;
     overflow:hidden;
+    margin: 0;
   }
   
   
@@ -1230,6 +1231,7 @@ align-self: center;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+
   }
   
   
@@ -1240,8 +1242,8 @@ align-self: center;
     grid-template-areas: "H1 WN GAP3"
     "H2 GAP1 GAP2";
       justify-content: center;
-      grid-gap: 6rem;
-  width: 100vw;
+      grid-gap: 8rem;
+  width: 75vw;
   height: 35vh;
     position:absolute;
     z-index: 10;
@@ -1269,7 +1271,7 @@ align-self: center;
     z-index: 10;
     font-size: 0.8rem;
     font-style: italic;
-    position: absolute;
+    position: static;
     text-align: left;
   white-space: nowrap;
   max-width: 200px;
@@ -1286,7 +1288,8 @@ align-self: center;
     justify-content: center;
     align-items: end;
     height: auto;
-    max-width: 100%;
+    max-width: 10px;
+    width: 50vw;
     position: relative;
     text-wrap: nowrap;
     margin: 0 auto;
@@ -1300,8 +1303,8 @@ align-self: center;
     display: flex;
     flex-direction: row; 
     justify-content: start;
-    width: 212px;
-   position: absolute;
+    width: 210px;
+   position: static;
    margin: 0 auto;
   
   } 
@@ -1319,7 +1322,8 @@ align-self: center;
     position: relative;
     align-items: center;
     justify-content: start;
-    position: static; 
+    position: relative; 
+    margin: 0 auto;
   }
   
   .Watch-now {
@@ -1347,7 +1351,7 @@ align-self: center;
   .Container-3 {
     height: 500px;
     z-index: 8;
-    position: relative;
+    position: static;
   }
 
   .h3-home {
