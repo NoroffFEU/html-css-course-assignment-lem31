@@ -3,12 +3,20 @@
 .About-Us {
   height: 50rem;
 }
+.About-Us-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
 
 .h1-about {
   display: flex;
   flex-direction: row;
   width: 180px;
   justify-content: end;
+  align-items: center;
 }
 
 .Header-text-box {
@@ -21,20 +29,15 @@
   font-size: 1.3rem;
 }
 
-.About-img-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 43rem;
-}
-
 .About-img {
-  width: 30rem;
+  width: 40vw;
 }
 
 .P-About-box {
   display: flex;
   flex-direction: row;
-  max-width: 765px;
+  max-width: 40vw;
+  max-height: 100vh;
   justify-content: center;
+  align-items: center;
 }
