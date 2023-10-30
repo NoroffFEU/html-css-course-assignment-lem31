@@ -1,5 +1,8 @@
 .img-bg-box {
+  display: flex;
+  flex-direction: column;
   width: 50vw;
+  min-width: 600px;
   height: 50rem;
   background-color: black;
 }
