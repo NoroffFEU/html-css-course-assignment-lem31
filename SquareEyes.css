@@ -86,9 +86,13 @@ header,
 .FN-Label,
 .Name-Label,
 .Email-Label,
-.message-label {
+.message-label, .The-Batman-span {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
+}
+
+.Film-text-Product-Page-1{
+  font-family: var(--Secondary-Font)
 }
 
 #h1-Films,
