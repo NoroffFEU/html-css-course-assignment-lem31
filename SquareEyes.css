@@ -42,7 +42,7 @@ header,
 
 .Container-3,
 .About-Us,
-.Contact-Page, .Product-1-Page {
+.Contact-Page, .Product-1-Page, .Product-2-Page {
   background-color: var(--Base-Blue-Color);
 }
 
