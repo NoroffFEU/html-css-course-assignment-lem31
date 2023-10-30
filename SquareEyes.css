@@ -1078,6 +1078,38 @@ align-self: center;
     justify-content: start;
     width: 280px;
   }
+
+
+  /* PRODUCT PAGE 1 */
+
+  .img-bg-box {
+    width: 100vw;
+    min-width: 300px;
+    height: 30rem;
+    
+  }
+
+  .Batman-img-Product-Page {
+    width: 250px;
+    height: 350px;
+    opacity: 0.5;
+  }
+
+  .Product-1-text-box {
+    height: 360px;
+    width: 200px;
+
+  }
+  
+  .Buy-btn {
+    height: 2.5rem;
+    width: 10rem;
+  }
+  
+  .View-btn {
+    height: 2rem;
+    width: 8rem;
+  }
 }
 
 /* LARGE SCREEN MOBILE + TABLET MEDIA QUERIES */
@@ -1616,7 +1648,6 @@ align-self: center;
     height: 40rem;
     
   }
-  
   
   .Buy-btn {
     height: 2.5rem;
