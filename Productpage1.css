@@ -1,0 +1,45 @@
+.img-bg-box {
+  width: 50vw;
+  height: 50rem;
+  background-color: black;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  position: relative;
+}
+
+.Batman-img-Product-Page {
+  width: 400px;
+  height: 500px;
+  opacity: 0.5;
+}
+
+.Product-1-text-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 500px;
+  width: 380px;
+  position: absolute;
+}
+
+.Buy-btn {
+  background-color: black;
+  color: #e6ff4b;
+  border-color: white;
+  border-radius: 10px 10px;
+  height: 2.5rem;
+  width: 10rem;
+}

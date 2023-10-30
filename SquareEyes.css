@@ -1,6 +1,7 @@
 @import url(SquareEyes-Film-Page.css);
 @import url(SquareEyes-About-Us-Page.css);
 @import url(SquareEyes-Contact-Page.css);
+@import url(Productpage1.css);
 
 /* VARIABLES */
 
@@ -27,7 +28,7 @@ footer,
 header,
 .About-Us,
 .Header-text-box,
-.Contact-Page {
+.Contact-Page, .Product-1-Page {
   width: 100%;
   max-width: 1900px;
   position: relative;
@@ -40,7 +41,7 @@ header,
 
 .Container-3,
 .About-Us,
-.Contact-Page {
+.Contact-Page, .Product-1-Page {
   background-color: var(--Base-Blue-Color);
 }
 
