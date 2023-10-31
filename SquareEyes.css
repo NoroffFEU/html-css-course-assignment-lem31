@@ -109,6 +109,8 @@ body, header, main, footer, html, .Container-1, .The-Batman-img-box, .The-Batman
   margin: 0;
 }
 
+
+
 /* HEADER & NAV */
 
 
@@ -1477,9 +1479,10 @@ align-self: center;
     height: 50px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     z-index: 8;
-    margin-top: -25rem;
+    margin-top: -29rem;
     position absolute;
     overflow: hidden;
   }
