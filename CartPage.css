@@ -77,3 +77,12 @@
 .word-here {
   color: #e6ff4b;
 }
+
+.Subtotal-total-box {
+  align-self: center;
+  text-align: center;
+}
+
+.Total-line {
+  margin-left: 1.2rem;
+}
