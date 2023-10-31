@@ -1477,7 +1477,7 @@ align-self: center;
     justify-content: center;
     flex-direction: column;
     z-index: 8;
-    margin-top: -29rem;
+    margin-top: -25rem;
     position absolute;
     overflow: hidden;
   }
