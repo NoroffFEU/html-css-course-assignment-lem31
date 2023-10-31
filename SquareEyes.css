@@ -978,7 +978,9 @@ align-self: center;
   /* ABOUT US PAGE */
 
   .About-Us {
-    height: 30rem;
+    min-height: 20rem;
+    max-height: 70vh;
+    margin:0;
   }
   
   .About-Us-wrapper {
@@ -1098,7 +1100,6 @@ align-self: center;
     width: 200px;
 
   }
-  
   
 
 
@@ -1601,8 +1602,11 @@ align-self: center;
   /* ABOUT US PAGE */
 
   .About-Us {
-    height: 30rem;
-  }
+    min-height: 30rem;
+    max-height: 70vh;
+    margin:0;
+    }
+  
 
   .h1-about {
     display: flex;
