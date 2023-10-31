@@ -40,7 +40,7 @@ header, footer,
 
 .Container-3,
 .About-Us,
-.Contact-Page, .Product-1-Page, .Product-2-Page {
+.Contact-Page, .Product-1-Page, .Product-2-Page, .Cart-Page {
   background-color: var(--Base-Blue-Color);
 }
 
@@ -85,13 +85,15 @@ header, footer,
 .FN-Label,
 .Name-Label,
 .Email-Label,
-.message-label, .The-Batman-span {
+.message-label, .The-Batman-span, .H1-Cart, .Item-num {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
 }
 
-.Film-text-Product-Page-1{
-  font-family: var(--Secondary-Font)
+.Film-text-Product-Page-1,  {
+  font-family: var(--Secondary-Font);
+  color: var(--White-Text-Color)
+ 
 }
 
 #h1-Films,
@@ -109,7 +111,7 @@ body, header, main, footer, html, .Container-1, .The-Batman-img-box, .The-Batman
   margin: 0;
 }
 
-body{
+body, main{
   width: 100%;
   height: 100%;
 }
