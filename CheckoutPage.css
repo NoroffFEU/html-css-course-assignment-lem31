@@ -1,0 +1,56 @@
+.Checkout-page {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Checkout-wrapper-1 {
+  display: grid;
+  grid-template-columns: repeat(2 auto);
+  grid-template-rows: repeat(5 auto);
+  grid-template-areas:
+    "H1 Gap1"
+    "H2 H3"
+    "Gap2 DForm"
+    "Gap3 H4"
+    "Btn PForm";
+  width: 80vw;
+  height: 100vh;
+}
+
+.h1-checkout {
+  grid-area: H1;
+}
+
+.h2-checkout {
+  grid-area: H2;
+}
+
+.h3-checkout {
+  grid-area: H3;
+}
+
+.h4-checkout {
+  grid-area: H4;
+}
+
+.Return-to-cart-btn {
+  grid-area: Btn;
+}
+
+.delivery-form {
+  grid-area: DForm;
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  max-width: 20vw;
+}
+
+.Card-details-form {
+  grid-area: PForm;
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  max-width: 20vw;
+}

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name= "viewport content= width=device-width, initial-scale=1.0">
+  <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
   <meta name="SquareEyes Film Website" content="SquareEyes Checkout Page" >
   <link rel="stylesheet" href="SquareEyes.css">
   <link rel="icon" type="image/png" href="Images/favicon-32x32.png">
@@ -16,6 +16,7 @@
 <title>SquareEyes</title>
 </head>
 
+<body>
    <header>
     <div class="Container-1">
 
@@ -50,6 +51,80 @@
       </div>
 </header>      
 
+<main>
+
+  <section class="Checkout-page">
+
+    <div class="Checkout-wrapper-1">
+
+      <h1 class="h1-checkout">Checkout</h1>
+      <h2 class="h2-checkout">Summary</h2>
+      <h3 class="h3-checkout">Delivery Address</h3>
+     
+      <form class="delivery-form">
+        
+        <label class="Checkout-Label" id="FN-label-checkout" for="First-Name" type="text">First Name</label>
+        <input type="text" id="First-Name-checkout" name="First-Name"/>
+     
+     
+        <label class="Checkout-Label" id="LN-label-checkout" for="Last-Name" type="text">Last Name</label>
+        <input type="text" id="Last-Name-checkout" name="Last-Name"/>
+     
+
+        <label class="Checkout-Label" id="Address-label" for="Address" type="text">Street Address</label>
+        <input type="text" id="Address" name="Address"/>
+     
+
+        <label class="Checkout-Label" id="Town-label" for="Town" type="text">Town</label>
+        <input type="text" id="Town" name="Town"/>
+     
+
+        <label class="Checkout-Label" id="Country-label" for="Country" type="text">Country</label>
+        <input type="text" id="Country" name="Country"/>
+     
+
+        <label class="Checkout-Label" id="Postcode-label" for="Postcode" type="text">First Name</label>
+        <input type="text" pattern="[0-9]" id="Postcode" name="Postcode"/>
+     
+        </form>
+     
+<h4 class="h4-checkout">
+  Payment
+</h4>
+
+
+<form class="Card-details-form">
+        
+  <label class="Checkout-Label" id="Card-num-label" for="Card-num" type="text">Card number</label>
+  <input type="text" pattern="[0-9]" id="Card-num" name="Card-num"/>
+
+
+  <label class="Checkout-Label" id="Expiry-label" for="Expiry" type="text">Expiry</label>
+  <input type="text" pattern="[0-9]" id="Expiry" name="Expiry"/>
+
+
+  <label class="Checkout-Label" id="CVV-Label" for="CVV" type="text">CVV</label>
+  <input type="text" pattern="[0-9]" id="CVV" name="CVV"/>
+
+
+  <label class="Checkout-Label" id="Cardholder-name-label" for="Cardholder-name" type="text">Cardholder name</label>
+  <input type="text" id="Cardholder-name" name="Cardholder-name"/>
+
+</form>
+
+<button class="Return-to-cart-btn">
+  Return to cart
+</button>
+
+      </div>
+  
+
+
+  </section>
+ 
+
+
+</main>
 
 
 
@@ -73,9 +148,6 @@
         </div>
       </div>
       
-      <div class="CR-text-box">
-       <p>Copyright ©2023 SquareEyes</p>
-      </div>
       
       </div>
        </section>
@@ -84,7 +156,7 @@
       
       </footer>
       
-      
+    </body>
       
       </html>
       
