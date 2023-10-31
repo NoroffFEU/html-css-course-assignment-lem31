@@ -1176,6 +1176,14 @@ align-self: center;
     height: 350px;
   
   }
+
+
+.Checkout-btn-box {
+  max-height: 2vh;
+  min-height: 300px;
+}
+
+
  
 }
 
@@ -1772,6 +1780,11 @@ align-self: center;
 .Subtotal-total-box {
   height: 240px;
 
+}
+
+.Checkout-btn-box {
+  max-height: 2vh;
+  min-height: 200px;
 }
  
 
