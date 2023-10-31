@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .Cart-Page {
   min-height: 600px;
   max-height: 100vh;
@@ -67,7 +62,6 @@
 .Paragraph-wrapper {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
   width: 200px;
   height: 100px;
   align-items: center;
