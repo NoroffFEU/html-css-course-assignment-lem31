@@ -11,6 +11,12 @@
   margin: 0;
 }
 
+.Cart-Page-Wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
 .Header-box {
   display: flex;
   flex-direction: row;
@@ -35,4 +41,39 @@
   display: flex;
   width: 200px;
   justify-content: center;
+}
+
+.Cart-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Empty-Cart-Box {
+  display: flex;
+  flex-direction: row;
+  max-width: 86.6vw;
+  width: 100%;
+  max-height: 30vh;
+  height: 170px;
+  background-color: var(--Purple-Color);
+  border: 2px solid black;
+}
+
+.Paragraph-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.P-Empty-Cart {
+  font-size: 1.3rem;
+}
+
+.word-here {
+  color: #e6ff4b;
 }

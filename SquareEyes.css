@@ -7,6 +7,7 @@
 /* VARIABLES */
 
 :root {
+  --Purple-Color: #9747FF;
   --Linear-Purple-Color: linear-gradient(180deg, #aa47ff 0%, #0f3b70 100%);
   --Base-Blue-Color: #0f3b70;
   --White-Text-Color: #ffffff;
@@ -85,7 +86,7 @@ header, footer,
 .FN-Label,
 .Name-Label,
 .Email-Label,
-.message-label, .The-Batman-span, .H1-Cart, .Item-num {
+.message-label, .The-Batman-span, .H1-Cart, .Item-num, .P-Empty-Cart {
   color: var(--White-Text-Color);
   font-family: var(--Primary-Font);
 }
