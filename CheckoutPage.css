@@ -162,7 +162,6 @@
 
 .Return-to-cart-btn {
   grid-area: Btn;
-  :var(--Purple-Color) ;
   color: var(--White-Text-Color);
   min-width: 15vw;
   min-height: 3vh;
