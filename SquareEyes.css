@@ -534,6 +534,7 @@ footer img {
     justify-items: center;
     align-items: center;
     gap: 0;
+    max-height: 100px;
   }
 
   .square-eyes-logo-box {
@@ -556,11 +557,12 @@ footer img {
     grid-area: Hamburger;
     width: 8rem;
     background-color: black;
-    position: absolute;
+    position: inherit;
     max-height: 50px;
     max-width: 100%;
     min-width: 100px;
     margin-top: 6rem;
+    margin-left: 6rem;
     float: left;
   }
 
@@ -1193,6 +1195,7 @@ footer img {
     justify-items: center;
     align-items: center;
     gap: 0;
+    max-height: 100px;
   }
 
   .square-eyes-logo-box {
@@ -1211,12 +1214,13 @@ footer img {
     display: none;
     grid-area: Hamburger;
     width: 8rem;
-    position: absolute;
+    position: inherit;
     max-height: 50px;
     max-width: 100%;
     min-width: 100px;
     margin-top: 6rem;
     margin-left: 7rem;
+    float: left;
   }
 
   nav a {
@@ -1242,7 +1246,7 @@ footer img {
     flex-direction: column;
     margin-top: 1rem;
     width: 1rem;
-    position: static;
+    position: relative;
     align-self: center;
     justify-self: center;
   }
