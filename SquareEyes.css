@@ -13,6 +13,7 @@
   --Purple-Color: #9747FF;
   --Linear-Purple-Color: linear-gradient(180deg, #aa47ff 0%, #0f3b70 100%);
   --Base-Blue-Color: #0f3b70;
+  --Yellow-Color: #e6ff4b;
   --White-Text-Color: #ffffff;
   --Primary-Font: "Amaranth", "open sans";
   --Secondary-Font: "Open Sans", "sans-serif";
@@ -37,7 +38,6 @@ body, main, header, footer,
 .Checkout-wrapper-1,
 .Checkout-success-page {
   max-width: 100vw;
-  /* max-width: 1900px; */
   position: relative;
 }
 
@@ -112,8 +112,17 @@ body, main, header, footer,
 .checkout-text
   {
   font-family: var(--Secondary-Font);
-  color: var(--White-Text-Color)
- 
+  color: var(--White-Text-Color);
+}
+
+
+.word-here, 
+.Checkout-btn,
+.Buy-btn,
+.View-btn, 
+.Watch-now,
+.films  {
+  color: var(--Yellow-Color);
 }
 
 #h1-Films,
@@ -376,9 +385,7 @@ justify-self: center;
 
 } 
 
-.films {
-  color: #e6ff4b;
-}
+
 
 .WN-box {
   grid-area: Gap;
@@ -396,7 +403,6 @@ justify-self: center;
 
 .Watch-now {
   grid-area: Gap;
-  color: #e6ff4b;
   text-decoration: none;
   font-size: 2.8rem;
   background: rgb(0, 0, 0);

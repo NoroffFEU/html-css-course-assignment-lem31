@@ -73,7 +73,7 @@
 }
 
 .word-here {
-  color: #e6ff4b;
+  text-decoration: none;
 }
 
 .checkout-cart-wrapper {
@@ -117,7 +117,6 @@
   width: 100px;
   height: 50px;
   background-color: var(--Purple-Color);
-  color: #e6ff4b;
   border-color: 5px solid white;
   border-radius: 10px;
   font-size: 1rem;
