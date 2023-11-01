@@ -1217,22 +1217,25 @@ main{
  
 .Checkout-wrapper-1 {
   display: grid;
-  grid-template-columns: repeat(2 auto);
-  grid-template-rows: repeat(6 auto);
+  grid-template-columns: repeat(3 auto);
+  grid-template-rows: repeat(7 auto);
   grid-template-areas:
-    "H1"
-    "H2"
-    "Btn"
-    "H3"
-    "DForm"
-    "H4"
-    "PForm";
-  
+    "Gap H1 Gap1"
+    "Gap3 H2 Gap4"
+    "Gap5 Gap6 Btn "
+    "Gap7 H3 Gap8"
+    "Gap9 DForm Gap10"
+    "Gap11 H4 Gap12"
+    "Gap13 PForm Gap14";
+  min-width: 300px;
   max-width: 100vw;
   max-height: 100vh;
+justify-content: center;
 
+column-gap: 0.5rem;
 
 }
+
 
 
 .Card-details-form {
@@ -1262,7 +1265,12 @@ main{
   text-wrap:nowrap;
 }
 
+.h1-h2-column{
+  display: flex;
+  flex-direction: column;
 
+
+}
 
 .h2-checkout{
   height: 200px;
@@ -1887,20 +1895,22 @@ main{
  
 .Checkout-wrapper-1 {
   display: grid;
-  grid-template-columns: repeat(2 auto);
+  grid-template-columns: repeat(3 auto);
   grid-template-rows: repeat(7 auto);
   grid-template-areas:
-    "H1"
-    "H2"
-    "Btn"
-    "H3"
-    "DForm"
-    "H4"
-    "PForm";
+    "Gap H1 Gap1"
+    "Gap3 H2 Gap4"
+    "Gap5 Gap6 Btn"
+    "Gap7 H3 Gap8"
+    "Gap9 DForm Gap10"
+    "Gap11 H4 Gap12"
+    "Gap13 PForm Gap14";
   
-  max-width: 100vw;
+ 
+  width: 100vw;
   height: 100vh;
 overflow-y: scroll;
+column-gap: 4rem;
   
 }
 
