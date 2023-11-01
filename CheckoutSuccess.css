@@ -14,14 +14,15 @@
   align-items: center;
   row-gap: 2rem;
   background-color: black;
-  min-width: 600px;
+  min-width: 80vw;
   max-width: 80vw;
-  min-height: 600px;
-  max-height: 80vh;
+  min-height: 90vh;
+  max-height: 100vh;
 }
 
 .checkout-text {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .tick-icon {
