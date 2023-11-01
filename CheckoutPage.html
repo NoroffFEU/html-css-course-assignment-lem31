@@ -44,7 +44,7 @@
       
       <a class= "cart-icon"  href="CartPage.html"><img class= "cart-icon"  src="Images/CartIcon-White.png" alt="Cart icon"></a>
       
-      <input id="search-box" type="search" "text" placeholder="Search Films">
+      <input id="search-box" type="search" placeholder="Search Films">
       
       
       </div>
@@ -63,42 +63,43 @@
 
 
       <div class= "Return-to-cart-btn-wrapper">
-       <a href="CartPage.html"> <button class="Return-to-cart-btn">
+       <form action="CartPage.html"> <button class="Return-to-cart-btn">
           Return to cart
         </button>
-      </a>
-    
-      </div>
+      </form>
+    </div>
      
       <h3 class="h3-checkout">
       Delivery Address
       </h3>
   
      
-     <div class="delivery-form-wrapper">
+    
       <form action="CheckoutSuccess.html" class="delivery-form">
+
+        <div class="delivery-form-wrapper">
         
-        <label class="Checkout-Label" id="FN-label-checkout" for="First-Name" type="text">First Name</label>
+        <label class="Checkout-Label" id="FN-label-checkout" for="First-Name-checkout" >First Name</label>
         <input class="Checkout-Input" type="text" id="First-Name-checkout" name="First-Name"/>
      
      
-        <label class="Checkout-Label" id="LN-label-checkout" for="Last-Name" type="text">Last Name</label>
+        <label  class="Checkout-Label" id="LN-label-checkout" for="Last-Name-checkout" >Last Name</label>
         <input class="Checkout-Input" type="text" id="Last-Name-checkout" name="Last-Name"/>
      
 
-        <label class="Checkout-Label" id="Address-label" for="Address" type="text">Street Address</label>
+        <label class="Checkout-Label" id="Address-label" for="Address">Street Address</label>
         <input class="Checkout-Input" type="text" id="Address" name="Address"/>
      
 
-        <label class="Checkout-Label" id="Town-label" for="Town" type="text">Town</label>
+        <label class="Checkout-Label" id="Town-label" for="Town" >Town</label>
         <input class="Checkout-Input" type="text" id="Town" name="Town"/>
      
 
-        <label class="Checkout-Label" id="Country-label" for="Country" type="text">Country</label>
+        <label class="Checkout-Label" id="Country-label" for="Country" >Country</label>
         <input class="Checkout-Input" type="text" id="Country" name="Country"/>
      
 
-        <label class="Checkout-Label" id="Postcode-label" for="Postcode" type="text">Postcode</label>
+        <label class="Checkout-Label" id="Postcode-label" for="Postcode" >Postcode</label>
         <input class="Checkout-Input" type="tel"  id="Postcode" name="Postcode"/>
      
    
@@ -114,24 +115,26 @@
 <div class="Card-details-form">
   
    <div class="card-num-column">  
-  <label class="Checkout-Label" id="Card-num-label" for="Card-num" type="text">Card number</label>
+  <label class="Checkout-Label" id="Card-num-label" for="Card-num" >Card number</label>
   <input class="Checkout-Input-PForm" type="tel"  id="Card-num" name="Card-num"/>
 </div>   
 
 <div class="Expiry-CVV-row">
 
   <div class="Expiry-column">
-  <label class="Checkout-Label" id="Expiry-label" for="Expiry" type="text">Expiry</label>
+  <label class="Checkout-Label" id="Expiry-label" for="Expiry" >Expiry</label>
   <input class="Checkout-Input-PForm"  type="tel"  id="Expiry" name="Expiry"/>
 </div>
+
 <div class="CVV-column">
-  <label class="Checkout-Label" id="CVV-Label" for="CVV" type="text">CVV</label>
+  <label class="Checkout-Label" id="CVV-Label" for="CVV" >CVV</label>
   <input class="Checkout-Input-PForm"  type="tel"  id="CVV" name="CVV"/>
 </div>
+
 </div>
 
 <div>
-  <label class="Checkout-Label" id="Cardholder-name-label" for="Cardholder-name" type="text">Cardholder name</label>
+  <label class="Checkout-Label" id="Cardholder-name-label" for="Cardholder-name">Cardholder name</label>
   <input class="Checkout-Input-PForm" type="text" id="Cardholder-name" name="Cardholder-name"/>
 </div>
 
@@ -139,15 +142,15 @@
  <button class="pay-btn" type="submit">Pay $0</button>
 </div>
 
-</form>
+</div>
 
 </div>
 
 
 
+</form>
 
-      </div>
-  
+</div>
 
 
   </section>
@@ -158,15 +161,20 @@
 
 
 
+
+
+
      <footer>
   
-      <section class="Container-4"> 
+      <div class="Container-4">
       
         <div class="footer-content-box">
       
         <div class= "SMI-imgs-box">
-
-         <img  src="Images/FacebookIcon.png" alt="Facebook icon"> <img  src="Images/InstagramIcon.png" alt="Instagram icon"> <img  src="Images/TwitterIcon.png" alt="Twitter icon"> <img  src="Images/YoutubeIcon.png" alt="Youtube icon"> 
+         <img  src="Images/FacebookIcon.png" alt="Facebook icon"> 
+         <img src="Images/InstagramIcon.png" alt="Instagram icon"> 
+         <img  src="Images/TwitterIcon.png" alt="Twitter icon"> 
+         <img  src="Images/YoutubeIcon.png" alt="Youtube icon"> 
         </div>
         
         <div class="footer-links-box">
@@ -176,13 +184,12 @@
           <a href="">Privacy Statement<span class="line">|</span></a>
           <a href="">FAQ</a>
         </div>
+
       </div>
       
-      
-      </div>
-       </section>
-      
-      
+    </div>
+
+  </div> 
       
       </footer>
       
