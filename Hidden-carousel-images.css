@@ -130,7 +130,7 @@ nav a:hover {
 .Search-Cart-box {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax 100px);
-  grid-template-rows: 1fr, 1fr, 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "GAP GAP"
     "search cart"
