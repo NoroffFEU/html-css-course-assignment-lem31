@@ -123,10 +123,10 @@ body, header, main, footer, html, .Container-1,.Container-2, .The-Batman-img-box
   margin: 0;
 }
 
-/* body, main{
+body, main{
   width: 100%;
   height: 100%;
-} */
+}
 
 /* HEADER & NAV */
 
@@ -214,12 +214,14 @@ nav a:hover{
 .cart-icon {
   max-width: 4rem;
   max-height: 4rem;
+  position: relative;
 }
 
 #search-icon-button {
   grid-area: search;
   align-self: center;
   justify-self: end;
+ 
 }
 
 .cart-icon {
@@ -240,13 +242,13 @@ nav a:hover{
   display: none;
   grid-area: box;
   z-index: 10;
-  position: inherit;
-  margin-top: 3rem;
+  position: absolute;
+  margin-top: 11.3rem;
   background-color: black;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  min-width: 400px;
-  width: 10vw;
+  min-width: 20vw;
+  max-width: 50vw;
   padding: 8px 60px;
   justify-self:end;
   
@@ -639,8 +641,7 @@ footer img {
   #search-box {
     padding: 8px 20px;
     max-width: 200px;
-    margin-top: 11.4rem;
-    justify-self:  end;
+  
   }
 
   .search-icon,
@@ -1305,11 +1306,8 @@ align-self: center;
 
   #search-box {
     padding: 8px 25px;
-    margin-top: 11.5rem;
-    position: absolute;
     width: 100%;
     max-width: 260px;
-    justify-self:  end;
   }
 
   .search-icon,
