@@ -161,20 +161,6 @@ nav a,
 }
 
 body,
-header,
-main,
-footer,
-html,
-.Container-1,
-.Container-2,
-.The-Batman-img-box,
-.The-Batman-img,
-.All-films-box,
-.Films-Categories-box {
-  margin: 0;
-}
-
-body,
 main {
   width: 100%;
   height: 100%;
