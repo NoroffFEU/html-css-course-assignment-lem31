@@ -33,14 +33,12 @@ footer,
 .h1-home,
 .h2-home-box,
 .h3,
-.carousel,
 .Container-4,
 .The-Batman-img,
 .The-Batman-img-box,
 .WN-box,
 .All-films-box,
 .Films-Categories-box,
-,
 .About-Us,
 .Header-text-box,
 .Contact-Page,
@@ -50,9 +48,9 @@ footer,
 .Checkout-success-page,
 #search-icon-button,
 .cart-icon,
-.Faith,
 .cat-img-box {
   max-width: 100vw;
+  width: 100%;
   position: relative;
 }
 
