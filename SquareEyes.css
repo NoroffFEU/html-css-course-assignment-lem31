@@ -1220,13 +1220,13 @@ main{
   grid-template-columns: repeat(3 auto);
   grid-template-rows: repeat(7 auto);
   grid-template-areas:
-    "Gap H1 Gap1"
-    "Gap3 H2 Gap4"
-    "Gap5 Gap6 Btn "
-    "Gap7 H3 Gap8"
-    "Gap9 DForm Gap10"
-    "Gap11 H4 Gap12"
-    "Gap13 PForm Gap14";
+    "H1 Gap Gap1"
+    "H2 Gap3  Gap4"
+    "Gap5 Gap6 Btn"
+    " H3 Gap7 Gap8"
+    "DForm Gap9  Gap10"
+    "H4 Gap11  Gap12"
+    "PForm Gap13  Gap14";
   min-width: 300px;
   max-width: 100vw;
   max-height: 100vh;
@@ -1898,20 +1898,23 @@ main{
   grid-template-columns: repeat(3 auto);
   grid-template-rows: repeat(7 auto);
   grid-template-areas:
-    "Gap H1 Gap1"
-    "Gap3 H2 Gap4"
+    "H1 Gap Gap1"
+    "H2 Gap3  Gap4"
     "Gap5 Gap6 Btn"
-    "Gap7 H3 Gap8"
-    "Gap9 DForm Gap10"
-    "Gap11 H4 Gap12"
-    "Gap13 PForm Gap14";
+    " H3 Gap7 Gap8"
+    "DForm Gap9  Gap10"
+    "H4 Gap11  Gap12"
+    "PForm Gap13  Gap14";
   
- 
   width: 100vw;
   height: 100vh;
 overflow-y: scroll;
-column-gap: 4rem;
+column-gap: 5rem;
   
+}
+
+.h1-checkout{
+  justify-content: start;
 }
 
 
