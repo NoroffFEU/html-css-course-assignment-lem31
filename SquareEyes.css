@@ -30,8 +30,8 @@ main, header, footer,
 .square-eyes-logo-box,
 .About-Us,
 .Header-text-box,
-.Contact-Page, .Product-1-Page {
-  width: 100%;
+.Contact-Page, .Product-1-Page, .Checkout-page, .Checkout-wrapper-1 {
+  width: 100vw;
   max-width: 1900px;
   position: relative;
 }
