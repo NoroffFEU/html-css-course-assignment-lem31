@@ -142,7 +142,15 @@ main {
   border: none;
 }
 
-body, header, main, footer, html, .Container-1,.Container-2, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
+body, 
+header, 
+main, 
+footer, 
+html, 
+.Container-1,
+.Container-2, 
+.The-Batman-img-box, 
+.The-Batman-img, .All-films-box, .Films-Categories-box{
   margin: 0;
 }
 
