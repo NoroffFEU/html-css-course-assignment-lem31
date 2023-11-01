@@ -1250,9 +1250,7 @@ main{
 
 .Expiry-CVV-row {
   gap: 1rem;
-  
- 
-}
+  }
 
 #Expiry,
 #CVV {
@@ -1874,8 +1872,12 @@ main{
 
 /* CHECKOUT PAGE */
 
+main{
+  min-height: 300px;
+}
+
 .Checkout-page{
-  min-height: 900px;
+  min-height: 580px;
   display: flex;
   flex-direction: column ;
   align-items: center;
@@ -1886,7 +1888,7 @@ main{
 .Checkout-wrapper-1 {
   display: grid;
   grid-template-columns: repeat(2 auto);
-  grid-template-rows: repeat(6 auto);
+  grid-template-rows: repeat(7 auto);
   grid-template-areas:
     "H1"
     "H2"
@@ -1901,6 +1903,11 @@ main{
 overflow-y: scroll;
   
 }
+
+
+.Expiry-CVV-row {
+  gap: 2rem;
+  }
 
 .h2-checkout{
   height: 200px;
