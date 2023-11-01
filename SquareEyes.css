@@ -1488,7 +1488,8 @@ footer img {
     justify-items: center;
     align-items: center;
     position: relative;
-    height: 100vh;
+    max-height: 100vh;
+    min-height: 40rem;
   }
 
   .Right-chevron {
@@ -1514,9 +1515,9 @@ footer img {
     justify-content: start;
     flex-direction: column;
     z-index: 8;
-    margin-top: -16rem;
     position: absolute;
     overflow: hidden;
+    margin-top: -15rem;
   }
 
   /* FOOTER */
