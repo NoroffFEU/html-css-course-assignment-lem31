@@ -4,7 +4,6 @@
   width: 50vw;
   min-width: 600px;
   height: 50rem;
-  background-color: black;
 }
 
 .box-wrapper {
@@ -40,7 +39,6 @@
 
 .Buy-btn,
 .View-btn {
-  background-color: black;
   border-color: white;
   border-radius: 10px 10px;
   height: 2.5rem;

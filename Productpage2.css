@@ -4,7 +4,6 @@
   width: 50vw;
   min-width: 600px;
   height: 50rem;
-  background-color: black;
 }
 
 .box-wrapper-Product-2 {
@@ -40,8 +39,6 @@
 
 .Buy-btn-Product-2,
 .View-btn-Product-2 {
-  background-color: black;
-  color: #e6ff4b;
   border-color: white;
   border-radius: 10px 10px;
   height: 2.5rem;
