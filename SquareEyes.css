@@ -18,7 +18,7 @@
 }
 
 /* GLOBAL STYLES */
-header, footer,
+main, header, footer,
 .Container-1,
 .Container-2,
 .Container-3,
@@ -119,14 +119,14 @@ header, footer,
   border: none;
 }
 
-body, header, main, footer, html, .Container-1, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
+body, header, main, footer, html, .Container-1,.Container-2, .The-Batman-img-box, .The-Batman-img, .All-films-box, .Films-Categories-box{
   margin: 0;
 }
 
-body, main{
+/* body, main{
   width: 100%;
   height: 100%;
-}
+} */
 
 /* HEADER & NAV */
 
@@ -240,13 +240,13 @@ nav a:hover{
   display: none;
   grid-area: box;
   z-index: 10;
-  position: absolute;
-  margin-top: 11rem;
+  position: inherit;
+  margin-top: 3rem;
   background-color: black;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  max-width: 400px;
-  width: 100%;
+  min-width: 400px;
+  width: 10vw;
   padding: 8px 60px;
   justify-self:end;
   
@@ -261,7 +261,6 @@ nav a:hover{
   grid-template-columns: 1fr 1fr 1fr auto;
   grid-template-rows: 1fr auto;
   grid-template-areas: "H11 H12 H13 H14";
-  overflow-x: hidden;
   min-height: 0;
   min-width: 0;
   overflow:hidden;
@@ -424,8 +423,7 @@ background: rgba(0, 0, 0, 0.260);
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
-  overflow-y: hidden;
-  overflow-x: hidden;
+ overflow: hidden;
 }
 
 h3 {
@@ -444,7 +442,6 @@ h3 {
   position: relative;
   overflow: hidden;
   overflow-x: scroll;
-  overflow-y: hidden;
   overscroll-behavior-inline: contain;
   scroll-behavior: smooth;
 
