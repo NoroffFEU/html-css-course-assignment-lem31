@@ -645,8 +645,9 @@ footer img {
     grid-area: H1;
     display: flex;
     flex-direction: row;
-    max-width: 35vw;
+    max-width: 190px;
     position: static;
+    justify-content: end;
   }
 
   .h1-home {
@@ -657,9 +658,8 @@ footer img {
     font-style: italic;
     position: static;
     white-space: nowrap;
-    max-width: 1vw;
+    max-width: 10px;
     justify-content: start;
-    margin-left: 1rem;
   }
 
   .h2-home-box {
@@ -670,7 +670,7 @@ footer img {
     justify-content: center;
     align-items: end;
     height: auto;
-    max-width: 30vw;
+    width: 250px;
     text-wrap: nowrap;
   }
 
@@ -680,22 +680,20 @@ footer img {
     z-index: 10;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    max-width: 10vw;
+    justify-content: center;
+    width: 10px;
     position: static;
   }
 
   .WN-box {
     grid-area: WN;
-
     display: flex;
     flex-direction: row;
-    width: 250px;
-
-    max-height: 130px;
+    width: 350px;
+    max-height: 100px;
     z-index: 10;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     position: static;
   }
 
@@ -1278,8 +1276,8 @@ footer img {
     grid-area: H1;
     display: flex;
     flex-direction: row;
-    width: 600px;
-    max-width: 400px;
+    width: 800px;
+    max-width: 500px;
     margin: 0 auto;
   }
 
@@ -1292,7 +1290,7 @@ footer img {
     position: static;
     text-align: left;
     white-space: nowrap;
-    max-width: 200px;
+    max-width: 280px;
     width: 100vw;
     justify-content: end;
     margin: 0 auto;
@@ -1307,7 +1305,7 @@ footer img {
     align-items: end;
     height: auto;
     max-width: 10px;
-    width: 50vw;
+    width: 40vw;
     text-wrap: nowrap;
     margin: 0 auto;
   }
@@ -1318,15 +1316,16 @@ footer img {
     z-index: 10;
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    width: 210px;
+    justify-content: center;
+    width: 180px;
     position: static;
     margin: 0 auto;
   }
 
   .WN-box {
     grid-area: WN;
-    width: 180px;
+    max-width: 100vw;
+    width: 270px;
     height: 30vw;
     z-index: 10;
     align-items: center;
@@ -1351,8 +1350,8 @@ footer img {
     filter: drop-shadow(0rem 0.2rem rgb(0, 0, 0));
     transform: rotate(-10deg);
     z-index: 10;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     position: static;
     overflow: hidden;
   }
