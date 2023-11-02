@@ -70,7 +70,7 @@ nav a {
 .Container-1,
 .square-eyes-logo-box,
 .WN-box,
-.SMI-imgs-box,
+.SMI-img-box,
 .footer-links-box,
 .h1-Films,
 .h2-Films {
@@ -512,7 +512,7 @@ footer {
   z-index: 8;
 }
 
-.SMI-imgs-box {
+.SMI-img-box {
   width: 100%;
   justify-content: center;
 }
