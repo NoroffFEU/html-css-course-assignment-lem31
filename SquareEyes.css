@@ -619,8 +619,9 @@ footer img {
   }
 
   #search-box {
-    padding: 8px 20px;
-    max-width: 200px;
+    min-width: 20rem;
+    max-width: 20rem;
+    margin-left: -15rem;
   }
 
   .search-icon,
@@ -1273,9 +1274,9 @@ footer img {
   }
 
   #search-box {
-    min-width: 50vw;
-    max-width: 50vw;
-    margin-left: -20rem;
+    min-width: 25rem;
+    max-width: 25rem;
+    margin-left: -18rem;
   }
 
   .search-icon,
