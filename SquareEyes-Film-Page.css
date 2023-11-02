@@ -65,6 +65,7 @@ body {
   position: relative;
   overflow-y: hidden;
   overflow: scroll;
+  padding-bottom: 2rem;
 }
 
 .Film-cat-row-3 {
