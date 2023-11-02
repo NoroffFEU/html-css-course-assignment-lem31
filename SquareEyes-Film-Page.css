@@ -32,6 +32,7 @@ body {
   max-width: 120px;
   justify-content: flex-end;
   margin-top: 0;
+  padding-left: 1rem;
 }
 
 #h2-Films {

@@ -76,6 +76,10 @@
   margin-left: 0.3rem;
 }
 
+.Contact-label {
+  color: white;
+}
+
 #First-Name {
   padding: 0.5rem 4rem;
   background-color: #2e2c2c;
@@ -95,7 +99,7 @@
   flex-direction: column;
 }
 
-.Email-Label {
+#Email-Label {
   margin-top: 1rem;
   margin-left: 0.3rem;
 }
@@ -108,7 +112,7 @@
   width: 12rem;
 }
 
-.message-label {
+.Contact-label {
   margin-top: 1rem;
 }
 
