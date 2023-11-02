@@ -61,7 +61,8 @@ footer,
 .Watch-now,
 .SquareEyes-logo,
 .square-eyes-logo-box,
-.Search-Cart-box {
+.Search-Cart-box,
+nav a {
   position: static;
   width: 100%;
 }
@@ -179,6 +180,11 @@ main {
   height: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* HEADER & NAV */
 
 .Container-1 {
@@ -186,6 +192,7 @@ main {
   align-content: center;
   justify-content: center;
   padding-bottom: 1rem;
+  max-height: 100px;
 }
 
 .square-eyes-logo-box {
@@ -214,17 +221,19 @@ nav {
 }
 
 nav a {
-  display: inline-flex;
+  display: inline-block;
   text-decoration: none;
   color: white;
-  padding: 1rem 2rem 1rem 2rem;
-  margin-right: 0.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: 0.5rem;
   border-radius: 1rem;
   border: 1px solid black;
-  text-align: center;
   font-size: 1.5rem;
   white-space: nowrap;
+  min-width: 8rem;
   max-width: 10rem;
+  text-align: center;
+  text-justify: center;
 }
 
 nav a:hover {
@@ -241,10 +250,9 @@ nav a:hover {
     "search cart"
     "box box";
   column-gap: 0rem;
-  height: 100px;
   gap: 0.5rem;
   width: 100%;
-  max-width: 50rem;
+  max-width: 30vw;
   justify-content: center;
   align-items: center;
   position: static;
@@ -281,13 +289,16 @@ nav a:hover {
   grid-area: box;
   z-index: 10;
   position: absolute;
-  margin-top: 11.3rem;
   color: var(--White-Text-Color);
   border: 10px solid #9747ff;
-  min-width: 20vw;
-  max-width: 50vw;
+  min-width: 30rem;
+  max-width: 30rem;
+  min-height: 12vh;
+  max-height: 12vh;
   padding: 8px 60px;
-  justify-self: end;
+  justify-self: start;
+  margin-top: 11.9rem;
+  margin-left: -35rem;
 }
 
 /* HOME PAGE */
@@ -1258,16 +1269,13 @@ footer img {
   }
 
   .Search-Cart-box {
-    grid-gap: 2.5rem;
     grid-column-gap: 1.5rem;
-    width: 100%;
-    justify-content: center;
   }
 
   #search-box {
-    padding: 8px 25px;
-    width: 100%;
-    max-width: 260px;
+    min-width: 50vw;
+    max-width: 50vw;
+    margin-left: -20rem;
   }
 
   .search-icon,
