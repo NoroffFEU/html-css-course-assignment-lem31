@@ -85,6 +85,11 @@ nav a {
   display: none;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .Container-1,
 .Container-4 {
   background: var(--Linear-Purple-Color);
@@ -178,11 +183,6 @@ body,
 main {
   width: 100%;
   height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /* HEADER & NAV */
