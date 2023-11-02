@@ -38,6 +38,10 @@ main {
 
 /* HEADER */
 
+header {
+  max-height: 100px;
+}
+
 .Container-1 {
   background: rgb(170, 71, 255);
   background: linear-gradient(
@@ -58,12 +62,12 @@ main {
 .square-eyes-logo-box {
   justify-content: center;
   align-content: center;
-  width: 80px;
+  width: 100px;
 }
 
 .SquareEyes-logo {
   grid-area: Logo;
-  max-width: 80px;
+  max-width: 100px;
   max-height: 50px;
   width: 100%;
   position: static;
@@ -178,11 +182,12 @@ nav a:hover {
   grid-area: box;
   z-index: 10;
   position: absolute;
-  margin-top: 6.5rem;
+  margin-top: 9.5rem;
   width: 100%;
+  width: 300px;
+  margin-left: -13.5rem;
   padding: 8px 60px;
-  justify-self: end;
-  max-width: 250px;
+  justify-self: start;
   background-color: black;
   color: white;
   border: 10px solid #9747ff;
