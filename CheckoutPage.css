@@ -47,7 +47,6 @@
 .h3-checkout {
   grid-area: H3;
   font-size: 1.5rem;
-  margin-left: 0.2rem;
 }
 
 .h4-checkout {
@@ -167,7 +166,7 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  height: 16rem;
+  height: 17rem;
 }
 
 .Return-to-cart-btn {
