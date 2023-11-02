@@ -1626,6 +1626,7 @@ footer img {
 
   main {
     min-height: 300px;
+    padding-bottom: 2rem;
   }
 
   .Checkout-page {
