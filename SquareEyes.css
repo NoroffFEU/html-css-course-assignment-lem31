@@ -191,7 +191,10 @@ main {
   align-content: center;
   justify-content: center;
   padding-bottom: 1rem;
+  min-height: 100px;
   max-height: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .square-eyes-logo-box {
@@ -296,8 +299,8 @@ nav a:hover {
   max-height: 8vh;
   padding: 8px 60px;
   justify-self: start;
-  margin-top: 11.9rem;
-  margin-left: -35rem;
+  margin-top: 8.9rem;
+  margin-left: -30rem;
 }
 
 /* HOME PAGE */
@@ -310,6 +313,7 @@ nav a:hover {
   min-height: 0;
   min-width: 0;
   overflow: hidden;
+  z-index: 8;
 }
 
 .The-Batman-img {
@@ -337,7 +341,7 @@ nav a:hover {
 
 .The-Batman-box-elements {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat (auto-fit, min-max (200px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     "H1 Gap1 Gap"
@@ -1177,9 +1181,6 @@ footer img {
     justify-items: center;
     align-items: center;
     gap: 0;
-
-    min-height: 100px;
-    max-height: 100px;
   }
 
   .square-eyes-logo-box {
@@ -1270,93 +1271,62 @@ footer img {
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
-    grid-gap: 8rem;
-    width: 75vw;
-    height: 35vh;
-  }
-
-  .h1-home-box {
-    grid-area: H1;
-    display: flex;
-    flex-direction: row;
-    width: 800px;
-    max-width: 500px;
+    grid-gap: 0;
+    max-width: 20vw;
+    height: 100vh;
     margin: 0 auto;
+    left: 0;
+    right: 0;
   }
 
   .h1-home {
-    display: flex;
-    flex-direction: row;
-    z-index: 10;
     font-size: 0.8rem;
-    font-style: italic;
-    position: static;
-    text-align: left;
-    white-space: nowrap;
-    max-width: 280px;
-    width: 100vw;
-    justify-content: end;
     margin: 0 auto;
+    left: 0;
+    right: 0;
   }
 
-  .h2-home-box {
-    grid-area: H1;
-    display: flex;
-    flex-direction: column;
-    z-index: 10;
-    justify-content: center;
-    align-items: end;
-    height: auto;
-    max-width: 10px;
-    width: 40vw;
-    text-wrap: nowrap;
-    margin: 0 auto;
+  .h1-home-box {
+    justify-content: start;
+    align-items: center;
+    height: 50px;
   }
 
   .h2-home {
-    grid-area: H1;
     font-size: 1.5rem;
-    z-index: 10;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 180px;
-    position: static;
     margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .h2-home-box {
+    display: flex;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 230px;
+    height: 200px;
+    justify-content: center;
+    align-items: end;
   }
 
   .WN-box {
     grid-area: WN;
-    max-width: 100vw;
-    width: 270px;
-    height: 30vw;
-    z-index: 10;
-    align-items: center;
-    justify-content: start;
-    margin: 0;
-    position: static;
+    display: flex;
+    justify-content: end;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 250px;
   }
 
   .Watch-now {
     grid-area: WN;
-    text-decoration: none;
-    font-size: 1rem;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(0, 0, 0, 0.31410984848484846) 40%
-    );
-    border: 0.1px black;
-    border-radius: 10rem 10rem 10rem 10rem;
-    padding: 0px 0px 0px 0px;
-    filter: drop-shadow(0rem 0.2rem rgb(0, 0, 0));
-    transform: rotate(-10deg);
-    z-index: 10;
     width: 130px;
     height: 130px;
     position: static;
     overflow: hidden;
+    font-size: 1.2rem;
   }
 
   .Container-3 {
