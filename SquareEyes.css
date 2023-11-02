@@ -338,8 +338,8 @@ nav a:hover {
 
 .The-Batman-box-elements {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     "H1 Gap1 Gap"
     "H2 GAP WN";
@@ -529,7 +529,7 @@ footer img {
   margin-left: 0.2rem;
 }
 
-/* SMALL SCREEN MOBILE MEDIA QUERIES */
+/*  SMALL SCREEN MOBILE MEDIA QUERIES */
 
 @media (max-width: 500px) {
   /* GLOBAL STYLES */
@@ -634,17 +634,6 @@ footer img {
 
   /* HOME PAGE */
 
-  .Container-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr auto;
-    grid-template-rows: 1fr auto;
-    grid-template-areas: "H11 H12 H13 H14";
-    overflow-x: hidden;
-    min-height: 0;
-    min-width: 0;
-    overflow: hidden;
-  }
-
   .The-Batman-img {
     height: auto;
     width: 100%;
@@ -653,35 +642,12 @@ footer img {
     z-index: 8;
   }
 
-  .The-Batman-img-box {
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    z-index: 8;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
   .The-Batman-box-elements {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
-    justify-content: center;
     width: 100vw;
     height: 35vh;
-    position: absolute;
-    z-index: 10;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
   }
 
   .h1-home-box {
@@ -1306,18 +1272,6 @@ footer img {
 
   /* HOME PAGE */
 
-  .Container-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr auto;
-    grid-template-rows: 1fr auto;
-    grid-template-areas: "H11 H12 H13 H14";
-    overflow-x: hidden;
-    min-height: 0;
-    min-width: 0;
-    overflow: hidden;
-    margin: 0;
-  }
-
   .The-Batman-img {
     height: auto;
     width: 100%;
@@ -1326,36 +1280,13 @@ footer img {
     z-index: 8;
   }
 
-  .The-Batman-img-box {
-    display: flex;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    z-index: 8;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
   .The-Batman-box-elements {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
-    justify-content: center;
     grid-gap: 8rem;
     width: 75vw;
     height: 35vh;
-    position: absolute;
-    z-index: 10;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
   }
 
   .h1-home-box {
