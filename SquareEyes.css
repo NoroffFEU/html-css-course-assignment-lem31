@@ -1128,7 +1128,7 @@ footer img {
 
   .Checkout-wrapper-1 {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: 2fr 0fr 2fr;
     grid-template-rows: repeat(7, auto);
     grid-template-areas:
       "H1 Gap Gap1"
@@ -1142,8 +1142,14 @@ footer img {
     max-width: 100vw;
     max-height: 100vh;
     justify-content: center;
+    column-gap: 0;
+  }
 
-    column-gap: 2rem;
+  .delivery-form-wrapper {
+    min-width: 40vw;
+    max-width: 50vw;
+    height: 60vh;
+    padding: 2rem 1rem 2rem 1rem;
   }
 
   .Card-details-form {
@@ -1733,7 +1739,7 @@ footer img {
 
   .Checkout-wrapper-1 {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 2fr 0fr 2fr;
     grid-template-rows: repeat(7, 1fr);
     grid-template-areas:
       "H1 Gap Gap1"
@@ -1743,7 +1749,7 @@ footer img {
       "DForm Gap9 Gap10"
       "H4 Gap11 Gap12"
       "PForm Gap13 Gap14";
-    min-width: 50vw;
+    min-width: 10vw;
     max-width: 100vw;
     height: 100vh;
     overflow-y: scroll;
