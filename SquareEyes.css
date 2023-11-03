@@ -1631,12 +1631,13 @@ footer img {
   /* CHECKOUT PAGE */
 
   main {
-    min-height: 300px;
-    padding-bottom: 2rem;
+    min-height: 750px;
+
+    overflow-x: hidden;
   }
 
   .Checkout-page {
-    min-height: 650px;
+    min-height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1646,49 +1647,74 @@ footer img {
 
   .Checkout-wrapper-1 {
     display: grid;
-    grid-template-columns: 0.8fr 2fr 0fr 1fr;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: 2fr 0fr 2fr;
+    grid-template-rows: repeat(7, auto);
     grid-template-areas:
-      "1 H1 Gap Gap1"
-      "2 H2 Gap3 Gap4"
-      "3 Gap5 Gap6 Btn"
-      "4 H3 Gap7 Gap8"
-      "5 DForm Gap9 Gap10"
-      "6 H4 Gap11 Gap12"
-      "7 PForm Gap13 Gap14";
-    min-width: 10vw;
+      "H1 Gap Gap1"
+      "H2 Gap3  Gap4"
+      "Gap5 Gap6 Btn"
+      " H3 Gap7 Gap8"
+      "DForm Gap9  Gap10"
+      "H4 Gap11  Gap12"
+      "PForm Gap13  Gap14";
+    min-width: 300px;
     max-width: 100vw;
-    height: 100vh;
-
+    max-height: 100vh;
+    justify-items: center;
     column-gap: 0;
-    justify-items: start;
   }
 
-  .h1-checkout {
-    grid-area: 1;
+  .h1-h2-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .delivery-form-wrapper {
+    min-width: 180px;
+    max-width: 180px;
+    height: 60vh;
+    padding: 2rem 1rem 2rem 1rem;
+  }
+
+  .Checkout-Input {
+    min-width: 165px;
+  }
+
+  .Card-details-form-wrapper {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+
+  .Card-details-form {
+    max-width: 30vw;
+    min-width: 30vw;
+  }
+
+  #Card-num,
+  #Cardholder-name {
+    width: 30vw;
+  }
+
+  .Expiry-CVV-row {
+    gap: 1rem;
+  }
+
+  #Expiry,
+  #CVV {
+    width: 8.5vw;
+  }
+
+  #Cardholder-name-label,
+  #Card-num-label {
+    text-wrap: nowrap;
   }
 
   .h2-checkout {
-    grid-area: 2;
+    height: 200px;
   }
 
   .h1-checkout,
   .h2-checkout {
-    justify-self: center;
+    justify-self: start;
     padding-left: 1rem;
-  }
-
-  .Expiry-CVV-row {
-    gap: 2rem;
-  }
-
-  .Checkout-Label {
-    white-space: nowrap;
-  }
-
-  .h3-checkout {
-    width: 100%;
-    text-wrap: nowrap;
-    white-space: nowrap;
   }
 }

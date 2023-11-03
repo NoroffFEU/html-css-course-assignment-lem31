@@ -30,7 +30,7 @@
   max-width: 100vw;
   min-height: 100vh;
   max-height: 100vh;
-  grid-column-gap: 23rem;
+  grid-column-gap: 20rem;
 }
 
 .h1-checkout {
@@ -166,8 +166,9 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  height: 340px;
-  position: relative;
+  max-width: 100vw;
+  height: 21rem;
+  position: static;
 }
 
 .Return-to-cart-btn {
@@ -175,11 +176,10 @@
   color: var(--White-Text-Color);
   font-weight: bold;
   font-size: 1rem;
-  min-width: 15vw;
-  min-height: 10vh;
-  max-height: 10vh;
-  border-radius: 5px;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 9px;
   padding: 1rem 3rem 1rem 3rem;
   text-wrap: nowrap;
-  position: static;
+  position: relative;
 }
