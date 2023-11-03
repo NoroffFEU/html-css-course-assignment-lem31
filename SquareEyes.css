@@ -577,10 +577,10 @@ footer img {
     background-color: black;
     position: inherit;
     max-height: 50px;
-    max-width: 100%;
+    max-width: 100px;
     min-width: 100px;
     margin-top: 6rem;
-    margin-left: 7rem;
+    margin-left: 5.2rem;
     float: left;
   }
 
@@ -1201,10 +1201,10 @@ footer img {
     width: 8rem;
     position: inherit;
     max-height: 50px;
-    max-width: 100%;
+    max-width: 100px;
     min-width: 100px;
     margin-top: 6rem;
-    margin-left: 7rem;
+    margin-left: 5.2rem;
     float: left;
   }
 
