@@ -17,6 +17,7 @@
   max-width: 80vw;
   min-height: 90vh;
   max-height: 100vh;
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .checkout-text {
