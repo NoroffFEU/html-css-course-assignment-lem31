@@ -302,7 +302,7 @@ nav a:hover {
   max-height: 8vh;
   padding: 8px 60px;
   justify-self: start;
-  margin-top: 4rem;
+  margin-top: 3.5rem;
   margin-left: -30rem;
 }
 
@@ -619,6 +619,7 @@ footer img {
   .Search-Cart-box {
     grid-column-gap: 1rem;
     grid-template-rows: 1fr 2fr 0fr;
+    margin-top: 0.8rem;
   }
 
   #search-box {
@@ -1253,6 +1254,7 @@ footer img {
     min-width: 25rem;
     max-width: 25rem;
     margin-left: -18rem;
+    margin-top: 4.3rem;
   }
 
   .search-icon,
