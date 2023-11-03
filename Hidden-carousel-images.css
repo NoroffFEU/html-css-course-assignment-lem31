@@ -71,7 +71,7 @@ header {
 
 .SquareEyes-logo {
   grid-area: Logo;
-  max-width: 100px;
+  max-width: 120px;
   max-height: 100px;
   width: 100%;
   position: static;
@@ -94,11 +94,11 @@ nav {
   background-color: black;
   position: absolute;
   max-height: 50px;
-  max-width: 100%;
+  max-width: 100px;
   min-width: 100px;
   z-index: 9;
   margin-top: 4.9rem;
-  margin-left: 7rem;
+  margin-left: 5.3rem;
   white-space: no-wrap;
   float: left;
 }
@@ -156,8 +156,8 @@ nav a:hover {
 
 .search-icon,
 .cart-icon {
-  max-width: 1.8rem;
-  max-height: 1.8rem;
+  max-width: 2.8rem;
+  max-height: 2rem;
 }
 
 .cart-icon {
