@@ -174,6 +174,7 @@
 .Return-to-cart-btn {
   grid-area: Btn;
   color: var(--White-Text-Color);
+  border-color: var(--Purple-Color);
   font-weight: bold;
   font-size: 1rem;
   width: 14rem;
