@@ -56,7 +56,6 @@ footer,
 
 .h1-home,
 .h2-home,
-.h2-home-box,
 .WN-box,
 .Watch-now,
 .SquareEyes-logo,
@@ -665,15 +664,10 @@ footer img {
 
   .h2-home-box {
     grid-area: H1;
-    display: flex;
-    flex-direction: column;
     justify-content: end;
-    align-items: end;
     height: auto;
     width: 250px;
-    text-wrap: nowrap;
     margin: 0 auto;
-    position: static;
   }
 
   .h2-home {
@@ -1283,14 +1277,12 @@ footer img {
   }
 
   .h2-home-box {
-    display: flex;
     margin: 0 auto;
     left: 0;
     right: 0;
     width: 230px;
     height: 200px;
     justify-content: center;
-    align-items: end;
   }
 
   .WN-box {
