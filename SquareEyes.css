@@ -602,6 +602,10 @@ footer img {
     border: 4px solid purple;
   }
 
+  label[for="search-checkbox"] {
+    display: none;
+  }
+
   #hamburger {
     grid-area: Hamburger;
     display: flex;
