@@ -17,8 +17,8 @@
 
 .Checkout-wrapper-1 {
   display: grid;
-  grid-template-columns: repeat(2 auto);
-  grid-template-rows: repeat(5 auto);
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(5, auto);
   grid-template-areas:
     "H1 Gap1"
     "H2 H3"

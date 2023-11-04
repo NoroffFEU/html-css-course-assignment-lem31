@@ -38,7 +38,6 @@ footer,
 .The-Batman-img-box,
 .WN-box,
 .All-films-box,
-,
 .About-Us,
 .Header-text-box,
 .Contact-Page,
@@ -347,7 +346,7 @@ nav a:hover {
 
 .The-Batman-box-elements {
   display: grid;
-  grid-template-columns: repeat (auto-fit, min-max (200px, 1fr));
+  grid-template-columns: repeat (auto-fit, min-max (200px 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     "H1 Gap1 Gap"
