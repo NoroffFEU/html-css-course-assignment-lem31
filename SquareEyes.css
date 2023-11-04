@@ -394,6 +394,7 @@ nav a:hover {
   justify-content: center;
   align-items: end;
   height: 50vh;
+
   text-wrap: nowrap;
 }
 
@@ -976,7 +977,6 @@ footer img {
 
   main {
     min-height: 750px;
-
     overflow-x: hidden;
   }
 
@@ -1526,7 +1526,7 @@ footer img {
   }
 
   .Checkout-Input {
-    min-width: 165px;
+    min-width: 300px;
   }
 
   .Card-details-form {
