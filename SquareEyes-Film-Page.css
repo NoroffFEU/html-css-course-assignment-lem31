@@ -27,6 +27,10 @@ body {
   overflow-y: scroll;
 }
 
+.All-films-box {
+  max-height: 750px;
+}
+
 #h1-Films {
   display: flex;
   max-width: 120px;
