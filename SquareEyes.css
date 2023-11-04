@@ -647,7 +647,7 @@ footer img {
 
   .h1-home-box {
     grid-area: H1;
-    max-width: 150px;
+    width: 45vw;
     position: static;
     justify-content: end;
     margin: 0 auto;
@@ -657,28 +657,32 @@ footer img {
     font-size: 0.6rem;
     position: relative;
     justify-content: start;
-    max-width: 8px;
+    width: 300px;
   }
 
   .h2-home-box {
     grid-area: H1;
     justify-content: center;
     height: auto;
-    width: 250px;
+    margin: 0 auto;
+    position: static;
+
+    width: 40vw;
   }
 
   .h2-home {
     grid-area: H1;
     font-size: 1.2rem;
     justify-content: center;
-    width: 2px;
+    width: 250px;
+    position: relative;
   }
 
   .WN-box {
     grid-area: WN;
     display: flex;
     flex-direction: row;
-    width: 340px;
+    width: 10vw;
     max-height: 100px;
     align-items: center;
     justify-content: center;
@@ -1226,7 +1230,7 @@ footer img {
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 250px;
+    width: 30vw;
   }
 
   .Watch-now {
