@@ -1061,13 +1061,13 @@ footer img {
     padding-left: 1rem;
   }
 
-  .h3-checkout-box {
-    justify-self: start;
-    text-wrap: nowrap;
+  .Return-to-cart-btn {
+    grid-area: Btn;
   }
 
-  .Return-to-cart-btn {
-    margin-left: -14rem;
+  .Return-to-cart-btn-wrapper {
+    grid-area: Btn;
+    margin-left: -6.5rem;
   }
 
   /* CHECKOUT SUCCESS PAGE */
@@ -1507,12 +1507,12 @@ footer img {
     grid-template-rows: repeat(7, auto);
     grid-template-areas:
       "H1 Gap Gap1"
-      "H2 Gap3  Gap4"
+      "H2 Gap3 Gap4"
       "Gap5 Gap6 Btn"
-      " H3 Gap7 Gap8"
-      "DForm Gap9  Gap10"
-      "H4 Gap11  Gap12"
-      "PForm Gap13  Gap14";
+      "H3 Gap7 Gap8"
+      "DForm Gap9 Gap10"
+      "H4 Gap11 Gap12"
+      "PForm Gap13 Gap14";
     min-width: 300px;
     max-width: 100vw;
     max-height: 100vh;
@@ -1523,11 +1523,6 @@ footer img {
   .h1-h2-column {
     display: flex;
     flex-direction: column;
-  }
-
-  .delivery-form-wrapper {
-    min-width: 180px;
-    max-width: 180px;
   }
 
   .Checkout-Input {
@@ -1562,17 +1557,28 @@ footer img {
     height: 200px;
   }
 
+  .h3-checkout {
+    margin: 0;
+    float: left;
+  }
+
+  .h3-checkout-box {
+    width: 190px;
+    justify-content: end;
+    margin: 0;
+    left: 0;
+    right: 0;
+    float: left;
+  }
+
   .h1-checkout,
   .h2-checkout {
     justify-self: start;
     padding-left: 1rem;
   }
 
-  .h3-checkout-box {
-    justify-self: start;
-  }
-
-  .h3-checkout {
-    margin-left: 0;
+  .Return-to-cart-btn-wrapper {
+    grid-area: Btn;
+    margin-left: -6rem;
   }
 }
