@@ -43,6 +43,8 @@
   border-radius: 10px 10px;
   height: 2.5rem;
   width: 10rem;
+  font-size: 1.2rem;
+  font-family: "Open Sans";
 }
 
 .View-btn {
@@ -60,10 +62,10 @@
 }
 
 .Film-text-Product-Page-1 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .The-Batman-span {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
