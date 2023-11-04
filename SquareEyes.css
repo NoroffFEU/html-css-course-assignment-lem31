@@ -1070,6 +1070,11 @@ footer img {
     margin-left: -6.5rem;
   }
 
+  .h3-checkout-box {
+    margin-left: 1rem;
+    position: static;
+  }
+
   /* CHECKOUT SUCCESS PAGE */
 
   .Checkout-success-box {
@@ -1557,18 +1562,9 @@ footer img {
     height: 200px;
   }
 
-  .h3-checkout {
-    margin: 0;
-    float: left;
-  }
-
   .h3-checkout-box {
-    width: 190px;
-    justify-content: end;
-    margin: 0;
-    left: 0;
-    right: 0;
-    float: left;
+    margin-left: 3rem;
+    position: static;
   }
 
   .h1-checkout,
