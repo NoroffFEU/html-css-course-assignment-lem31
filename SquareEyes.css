@@ -1128,7 +1128,7 @@ footer img {
   }
 
   .Card-details-form-wrapper {
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem 5rem 2rem 5rem;
   }
 
   .Card-details-form {
@@ -1689,14 +1689,9 @@ footer img {
     min-width: 165px;
   }
 
-  .Card-details-form-wrapper {
-    padding: 2rem 6rem 2rem 6rem;
-    min-width: 20vw;
-  }
-
   .Card-details-form {
     max-width: 30vw;
-    min-width: 10vw;
+    min-width: 20vw;
   }
 
   #Card-num,
