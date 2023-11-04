@@ -1580,5 +1580,7 @@ footer img {
   .Return-to-cart-btn-wrapper {
     grid-area: Btn;
     margin-left: -6rem;
+    height: 300px;
+    padding-bottom: 3rem;
   }
 }
