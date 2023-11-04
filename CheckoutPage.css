@@ -177,11 +177,13 @@
   grid-area: Btn;
   display: flex;
   flex-direction: column;
-  justify-content: end;
   max-width: 100vw;
-  min-height: 13.5rem;
-  max-height: 13.5rem;
+  min-height: 13.6rem;
   position: static;
+  justify-content: end;
+  margin: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .Return-to-cart-btn {
