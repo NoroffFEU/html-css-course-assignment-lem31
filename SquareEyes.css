@@ -1572,4 +1572,8 @@ footer img {
   .h3-checkout-box {
     justify-self: start;
   }
+
+  .h3-checkout {
+    margin-left: 0;
+  }
 }
