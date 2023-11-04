@@ -43,6 +43,7 @@
   border-radius: 10px 10px;
   height: 2.5rem;
   width: 10rem;
+  font-size: 1rem;
 }
 
 .View-btn-Product-2 {
@@ -60,10 +61,10 @@
 }
 
 .Film-text-Product-Page-2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .TS4-span {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
