@@ -1062,6 +1062,11 @@ footer img {
     padding-left: 1rem;
   }
 
+  .h3-checkout-box {
+    justify-self: start;
+    text-wrap: nowrap;
+  }
+
   .Return-to-cart-btn {
     margin-left: -14rem;
   }
@@ -1562,5 +1567,9 @@ footer img {
   .h2-checkout {
     justify-self: start;
     padding-left: 1rem;
+  }
+
+  .h3-checkout-box {
+    justify-self: start;
   }
 }
