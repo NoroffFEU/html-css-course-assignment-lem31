@@ -640,13 +640,6 @@ footer img {
 
   /* HOME PAGE */
 
-  .The-Batman-img {
-    height: auto;
-    width: 100%;
-    z-index: 8;
-    margin: 0;
-  }
-
   .The-Batman-box-elements {
     grid-template-areas:
       "H1 WN GAP3"
@@ -1267,10 +1260,6 @@ footer img {
       "H2 GAP1 GAP2";
     grid-gap: 0;
     max-width: 20vw;
-    height: 100vh;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
   }
 
   .h1-home {
