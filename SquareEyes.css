@@ -666,7 +666,6 @@ footer img {
     height: auto;
     margin: 0 auto;
     position: static;
-
     width: 40vw;
   }
 
@@ -674,7 +673,7 @@ footer img {
     grid-area: H1;
     font-size: 1.2rem;
     justify-content: center;
-    width: 250px;
+    width: 240px;
     position: relative;
   }
 
