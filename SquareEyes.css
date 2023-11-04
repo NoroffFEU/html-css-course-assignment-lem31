@@ -1564,9 +1564,9 @@ footer img {
     height: 200px;
   }
 
-  .h3-checkout-box {
-    margin-left: 3rem;
-    position: static;
+  .h3-checkout {
+    overflow: hidden;
+    padding: 0 51px 0 50px;
   }
 
   .h1-checkout,
