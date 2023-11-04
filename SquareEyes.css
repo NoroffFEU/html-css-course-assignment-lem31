@@ -38,7 +38,7 @@ footer,
 .The-Batman-img-box,
 .WN-box,
 .All-films-box,
-.Films-Categories-box,
+,
 .About-Us,
 .Header-text-box,
 .Contact-Page,
@@ -787,26 +787,11 @@ footer img {
 
   /* FILMS PAGE */
 
-  .All-films-box {
-    max-height: 750px;
-  }
-
   .All-films-images {
     grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
-    column-gap: 0;
     row-gap: 0;
     max-width: 313px;
-    justify-content: center;
-  }
-
-  .Films-Categories-box {
-    max-height: 300px;
-    display: flex;
-    flex-direction: column;
-    z-index: 9;
-    overflow-y: hidden;
-    overflow: scroll;
   }
 
   .Film-cat-row-3 {
@@ -1383,31 +1368,16 @@ footer img {
 
   /* FILMS PAGE */
 
-  .All-films-box {
-    max-height: 750px;
-  }
-
   .All-films-images {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
-    column-gap: 0;
     row-gap: 0;
     max-width: 400px;
-    justify-content: center;
   }
 
   .All-films-poster {
     width: 100px;
     height: 140px;
-  }
-
-  .Films-Categories-box {
-    max-height: 300px;
-    display: flex;
-    flex-direction: column;
-    z-index: 9;
-    overflow-y: hidden;
-    overflow: scroll;
   }
 
   .Film-cat-row-3 {
