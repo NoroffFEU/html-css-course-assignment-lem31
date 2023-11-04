@@ -807,12 +807,7 @@ footer img {
   .footer-content-box {
     height: 10rem;
     max-height: 10rem;
-    display: flex;
-    flex-direction: column;
     row-gap: 0.5rem;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
   }
 
   footer img {
@@ -1430,12 +1425,7 @@ footer img {
 
   .footer-content-box {
     max-height: 10rem;
-    display: flex;
-    flex-direction: column;
     row-gap: 0.5rem;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
   }
 
   footer img {
