@@ -602,10 +602,6 @@ footer img {
     border: 4px solid purple;
   }
 
-  label[for="search-checkbox"] {
-    display: none;
-  }
-
   #hamburger {
     grid-area: Hamburger;
     display: flex;
@@ -622,7 +618,7 @@ footer img {
   }
 
   .Search-Cart-box {
-    grid-column-gap: 1rem;
+    grid-column-gap: 0;
     grid-template-rows: 1fr 2fr 0fr;
   }
 
