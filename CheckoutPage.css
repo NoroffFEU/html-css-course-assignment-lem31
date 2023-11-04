@@ -11,7 +11,7 @@
   padding: 0;
   margin: 0;
   height: 100vh;
-  min-height: 1200px;
+  min-height: 1100px;
   width: 100vw;
 }
 
@@ -176,7 +176,7 @@
   grid-area: Gap2;
   display: flex;
   flex-direction: column;
-  height: 47.5rem;
+  height: 47.4rem;
   max-width: 100vw;
   position: relative;
   justify-content: end;
