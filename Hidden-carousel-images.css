@@ -173,6 +173,10 @@ nav a:hover {
   justify-self: end;
 }
 
+.Search-form {
+  grid-area: search;
+}
+
 #search-checkbox {
   display: none;
 }
@@ -186,7 +190,7 @@ nav a:hover {
   grid-area: box;
   z-index: 10;
   position: absolute;
-  margin-top: 5rem;
+  margin-top: 2rem;
   width: 100%;
   width: 300px;
   margin-left: -13.5rem;
