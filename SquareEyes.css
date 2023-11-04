@@ -146,7 +146,9 @@ nav a,
 
 .Film-text-Product-Page-1,
 .Continue-Browsing-btn,
-.checkout-text {
+.checkout-text,
+.Film-text-Product-Page-2,
+.Film-text-Product-Page-1 {
   font-family: var(--Secondary-Font);
   color: var(--White-Text-Color);
 }
@@ -918,8 +920,16 @@ footer img {
   }
 
   .Product-1-text-box {
-    height: 360px;
-    width: 200px;
+    height: 390px;
+    width: 300px;
+    align-items: center;
+  }
+  .Film-text-Product-Page-1 {
+    font-size: 1rem;
+  }
+
+  .The-Batman-span {
+    font-size: 1.5rem;
   }
 
   /* PRODUCT PAGE 2 */
@@ -938,6 +948,15 @@ footer img {
 
   .Product-2-text-box {
     width: 200px;
+    height: 400px;
+  }
+
+  .TS4-span {
+    font-size: 1.5rem;
+  }
+
+  .Film-text-Product-Page-2 {
+    font-size: 0.8rem;
   }
 
   /* CART PAGE */
