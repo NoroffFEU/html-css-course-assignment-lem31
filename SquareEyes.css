@@ -1440,16 +1440,14 @@ footer img {
 
   .img-bg-box {
     width: 100vw;
-    min-width: 500px;
+    min-width: 450px;
     height: 40rem;
   }
 
   /* PRODUCT PAGE 2 */
 
-  .img-bg-box {
-    width: 100vw;
-    min-width: 500px;
-    height: 40rem;
+  .img-bg-box-Product-2 {
+    min-width: 450px;
   }
 
   .Product-2-text-box {
