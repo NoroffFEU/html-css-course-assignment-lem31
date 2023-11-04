@@ -46,24 +46,24 @@
 
 .h3-checkout {
   grid-area: H3;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-left: -0.1rem;
 }
 
 .h3-checkout-box {
   grid-area: H3;
   display: flex;
   flex-direction: row;
-    justify-self: start;
-    text-wrap: nowrap;
-    margin: 0;
-    left: 0;
-    right: 0;
-  }
+  justify-self: start;
+  text-wrap: nowrap;
+  margin: 0;
+  left: 0;
+  right: 0;
 }
 
 .h4-checkout {
   grid-area: H4;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .delivery-form-wrapper {
