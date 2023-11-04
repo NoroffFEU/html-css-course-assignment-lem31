@@ -289,6 +289,10 @@ nav a:hover {
   display: block;
 }
 
+.Search-form {
+  grid-area: search;
+}
+
 #search-box {
   display: none;
   grid-area: box;
@@ -302,7 +306,7 @@ nav a:hover {
   max-height: 8vh;
   padding: 8px 60px;
   justify-self: start;
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   margin-left: -30rem;
 }
 
