@@ -356,7 +356,7 @@ nav a:hover {
   justify-content: center;
   max-width: 60vw;
   height: 100vh;
-  grid-gap: 4rem;
+  grid-gap: 6rem;
   position: absolute;
   z-index: 9;
   margin: 0 auto;
@@ -382,6 +382,7 @@ nav a:hover {
   white-space: nowrap;
   width: 200px;
   justify-self: center;
+  flex-grow: 1;
 }
 
 .h1-home a {
@@ -646,12 +647,12 @@ footer img {
       "H2 GAP1 GAP2";
     width: 100vw;
     height: 35vh;
-    grid-gap: 1.5rem;
+    grid-gap: 2.5rem;
   }
 
   .h1-home-box {
     grid-area: H1;
-    width: 50vw;
+    width: 60vw;
     position: static;
     justify-content: end;
     margin: 0 auto;
@@ -671,7 +672,7 @@ footer img {
     height: auto;
     margin: 0 auto;
     position: static;
-    width: 20vw;
+    width: 25vw;
   }
 
   .h2-home {
@@ -1211,7 +1212,7 @@ footer img {
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
-    grid-gap: 0;
+    grid-gap: 2rem;
     max-width: 20vw;
   }
 
