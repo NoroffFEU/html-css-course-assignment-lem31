@@ -29,9 +29,7 @@ footer,
 .Container-1,
 .Container-2,
 .Container-3,
-.h1-home-box,
 .h1-home,
-.h2-home-box,
 .h3,
 .Container-4,
 .The-Batman-img,
@@ -348,8 +346,8 @@ nav a:hover {
 
 .The-Batman-box-elements {
   display: grid;
-  grid-template-columns: repeat (auto-fit, min-max (200px 1fr));
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: repeat(2 auto);
   grid-template-areas:
     "H1 Gap1 Gap"
     "H2 GAP WN";
@@ -642,44 +640,37 @@ footer img {
   /* HOME PAGE */
 
   .The-Batman-box-elements {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
     width: 100vw;
     height: 35vh;
-    grid-gap: 2.5rem;
+    grid-gap: 1.5rem;
   }
 
   .h1-home-box {
     grid-area: H1;
-    width: 60vw;
-    position: static;
-    justify-content: end;
-    margin: 0 auto;
   }
 
   .h1-home {
     font-size: 0.6rem;
-    position: relative;
-    justify-content: start;
-    width: 300px;
   }
 
   .h2-home-box {
     grid-area: H1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: end;
-    height: auto;
-    margin: 0 auto;
+    align-items: start;
+    height: 140px;
+    width: 800px;
     position: static;
-    width: 25vw;
   }
 
   .h2-home {
     grid-area: H1;
     font-size: 1.2rem;
-    justify-content: center;
-    max-width: 220px;
     position: relative;
   }
 
@@ -687,11 +678,11 @@ footer img {
     grid-area: WN;
     display: flex;
     flex-direction: row;
-    width: 10vw;
+    /* width: 10vw;
     max-height: 100px;
     align-items: center;
     justify-content: center;
-    position: static;
+    position: static; */
   }
 
   .Watch-now {
@@ -1209,49 +1200,41 @@ footer img {
   }
 
   .The-Batman-box-elements {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-areas:
       "H1 WN GAP3"
       "H2 GAP1 GAP2";
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     max-width: 20vw;
   }
 
   .h1-home {
     font-size: 0.8rem;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
   }
 
   .h1-home-box {
-    justify-content: start;
-    align-items: center;
-    height: 50px;
+    grid-area: H1;
   }
 
   .h2-home {
     font-size: 1.5rem;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
   }
 
   .h2-home-box {
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 230px;
-    height: 200px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 120px;
+    justify-content: end;
   }
 
   .WN-box {
     grid-area: WN;
     display: flex;
     justify-content: end;
-    margin: 0 auto;
+    /* margin: 0 auto;
     left: 0;
-    right: 0;
+    right: 0; */
     width: 30vw;
   }
 
