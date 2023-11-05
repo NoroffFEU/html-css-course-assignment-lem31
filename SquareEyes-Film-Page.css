@@ -68,9 +68,10 @@ body {
   flex-direction: column;
   z-index: 9;
   position: relative;
-  overflow-y: hidden;
+  overflow-x: hidden;
   overflow: scroll;
   padding-bottom: 2rem;
+  margin: 0;
 }
 
 .Film-cat-row-3 {

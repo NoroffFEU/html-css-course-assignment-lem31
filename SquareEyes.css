@@ -45,7 +45,8 @@ footer,
 .Checkout-success-page,
 #search-icon-button,
 .cart-icon,
-.cat-img-box {
+.cat-img-box,
+.carousel {
   max-width: 100vw;
   width: 100%;
   position: relative;
@@ -80,9 +81,11 @@ nav a {
   display: none;
 }
 
-body {
+body,
+main {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .Container-1,
@@ -810,6 +813,10 @@ footer img {
   .Films-Categories-img {
     width: 55px;
     height: 87px;
+  }
+
+  .Films-Categories-box {
+    padding-top: 4rem;
   }
 
   .header-films-page {
