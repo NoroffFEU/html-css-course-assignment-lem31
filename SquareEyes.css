@@ -354,7 +354,7 @@ nav a:hover {
   justify-content: center;
   max-width: 60vw;
   height: 100vh;
-  grid-gap: 6rem;
+  grid-gap: 7rem;
   position: absolute;
   z-index: 9;
   margin: 0 auto;
@@ -678,11 +678,6 @@ footer img {
     grid-area: WN;
     display: flex;
     flex-direction: row;
-    /* width: 10vw;
-    max-height: 100px;
-    align-items: center;
-    justify-content: center;
-    position: static; */
   }
 
   .Watch-now {
@@ -1090,8 +1085,9 @@ footer img {
   /* CHECKOUT SUCCESS PAGE */
 
   .Checkout-success-box {
+    min-width: 120px;
     max-width: 100vw;
-    min-height: 80vh;
+    min-height: 60vh;
     max-height: 80vh;
   }
 
